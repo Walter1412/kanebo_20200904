@@ -18,6 +18,8 @@
     "@nuxtjs/pwa": "^3.0.2",
     "@nuxtjs/style-resources": "^1.0.0",
     "nuxt": "^2.14.4",
+    "swiper": "^6.2.0",
+    "vue-awesome-swiper": "^4.1.1",
     "vue-device-detector": "^1.1.5",
     "vuelidate": "^0.7.5"
   },

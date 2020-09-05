@@ -1,14 +1,18 @@
-<style lang="stylus" scoped>
-.test
-  font-size 20px
+<style lang="stylus">
+.index
+  width 100%
 </style>
 <template lang="pug">
-.index hello
+.index
+  Desktop
 </template>
 
 <script>
+import Desktop from '@/components/project/Desktop'
 export default {
-  components: {},
+  components: {
+    Desktop,
+  },
   props: {},
   data() {
     return {}

@@ -1,4 +1,11 @@
-<style lang="stylus" scoped></style>
+<style lang="stylus">
+.default-wrapper
+  width 100vw
+.default-container
+  width 100%
+.default
+  width 100%
+</style>
 <template lang="pug">
 .default-wrapper
   .default-container

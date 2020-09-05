@@ -4,6 +4,9 @@ module.exports = {
     browser: true,
     node: true,
   },
+  globals:{
+    _swiper: true,
+  },
   parserOptions: {
     parser: 'babel-eslint',
   },
@@ -24,5 +27,6 @@ module.exports = {
     camelcase: 'off',
     'prettier/prettier': 'error',
     'no-empty-source': 'off',
+    'import/no-named-as-default': 0,
   },
 }

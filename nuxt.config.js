@@ -1,3 +1,4 @@
+const webpack = require('webpack')
 export default {
   /*
    ** Nuxt rendering mode
@@ -31,6 +32,7 @@ export default {
    */
   css: [
     { src: 'normalize.css' },
+    { src: 'swiper/swiper-bundle.css', lang: 'css' },
     { src: 'assets/styles/app.styl', lang: 'stylus' },
   ],
   /*
@@ -42,6 +44,7 @@ export default {
     '@/plugins/axios.js',
     '@/plugins/mixin.js',
     '@/plugins/vue-device-detector.js',
+    '@/plugins/swiper.js',
     '@/plugins/components.js',
   ],
   /*
@@ -83,7 +86,22 @@ export default {
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: {},
+  build: {
+    // vendor: ['swiper'],
+    // plugins: [
+    //   new webpack.ProvidePlugin({
+    //     _swiper: 'swiper',
+    //   }),
+    // ],
+    loaders: {
+      fontUrl: {
+        limit: 1,
+      },
+      imgUrl: {
+        limit: 0,
+      },
+    },
+  },
   styleResources: {
     // your settings here
     sass: [],

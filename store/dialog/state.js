@@ -1,5 +1,5 @@
 export default () => ({
-  isDisplay: true,
+  isDisplay: false,
   componentName: '',
   data: {},
   config: {},
