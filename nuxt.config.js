@@ -29,12 +29,21 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [
+    { src: 'normalize.css' },
+    { src: 'assets/styles/app.styl', lang: 'stylus' },
+  ],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [],
+  plugins: [
+    '@/plugins/vuelidate.js',
+    '@/plugins/axios.js',
+    '@/plugins/mixin.js',
+    '@/plugins/vue-device-detector.js',
+    '@/plugins/components.js',
+  ],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -47,7 +56,7 @@ export default {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/stylelint-module
-    '@nuxtjs/stylelint-module',
+    // '@nuxtjs/stylelint-module',
   ],
   /*
    ** Nuxt.js modules
@@ -58,6 +67,7 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
+    '@nuxtjs/style-resources',
   ],
   /*
    ** Axios module configuration
@@ -74,4 +84,11 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
+  styleResources: {
+    // your settings here
+    sass: [],
+    scss: [],
+    less: [],
+    stylus: ['~assets/styles/_base.styl'],
+  },
 }

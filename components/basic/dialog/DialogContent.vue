@@ -1,9 +1,11 @@
-<style lang="stylus" scoped>
-.test
-  font-size 20px
+<style lang="stylus">
+.dialog-content
+  padding 0 25px
 </style>
 <template lang="pug">
-.index hello
+.dialog-content
+  slot
+
 </template>
 
 <script>
@@ -17,6 +19,6 @@ export default {
   watch: {},
   created() {},
   mounted() {},
-  // methods: {},
+  methods: {},
 }
 </script>
