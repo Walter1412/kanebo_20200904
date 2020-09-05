@@ -3,13 +3,16 @@
   background-image url('~assets/images/project/section0/background.png')
   .product
     position relative
+    img
+      width 100%
     &-image
       width 100%
 
     &-2-icon
       position absolute
-      left 34%
+      right 56%
       top 0%
+      width width1920(120)
 </style>
 <template lang="pug">
 .products0.swiper-container(ref="products")
@@ -22,7 +25,8 @@
       img.product-image(src="~assets/images/project/section0/group1.png")
     .product.swiper-slide
       img.product-image(src="~assets/images/project/section0/group2.png")
-      img.product-2-icon(src="~assets/images/project/section0/product4_icon.png")
+      Shake.product-2-icon
+        img(src="~assets/images/project/section0/product4_icon.png")
   .swiper-pagination
   .swiper-button-prev
   .swiper-button-next
@@ -51,7 +55,7 @@ export default {
     swiperInit() {
       // const Swiper = _swiper.default
       this.productsSwiper = new Window.Swiper(this.$refs.products, {
-        spaceBetween: 30,
+        // spaceBetween: 30,
         autoplay: {
           delay: 3000,
         },

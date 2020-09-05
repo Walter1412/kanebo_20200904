@@ -12,6 +12,7 @@
     left 50%
     transform translate(-50%,0)
     bottom 3%
+    width width1920(538)
 </style>
 <template lang="pug">
 .banner3-wrapper

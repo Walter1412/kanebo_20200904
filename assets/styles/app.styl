@@ -22,24 +22,31 @@
 
 .swiper-container
   width 100%
-  padding-left 115px
-  padding-right 115px
   padding-bottom 150px
   background-repeat no-repeat
   background-size contain
 
+.swiper-slide
+  width 100%
+  padding-left width1920(115)
+  padding-right width1920(115)
+
 .swiper-button-prev
   background-image url('~assets/images/project/pagination/left.png')
-  width 51px
-  height 101px
+  width width1920(51)
+  height width1920(100)
+  background-size contain
+  background-repeat no-repeat
 
   &:after
     content ''
 
 .swiper-button-next
   background-image url('~assets/images/project/pagination/right.png')
-  width 51px
-  height 101px
+  width width1920(51)
+  height width1920(100)
+  background-size contain
+  background-repeat no-repeat
 
   &:after
     content ''
@@ -53,3 +60,11 @@
 
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet
   margin 0 20px
+
+.more
+  width width1920(200)
+  display inline-block
+  position absolute
+
+  img
+    width 100%

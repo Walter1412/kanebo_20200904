@@ -11,6 +11,7 @@
     position absolute
     right 0%
     bottom 0%
+    width width1920(518)
 </style>
 <template lang="pug">
 .banner2-wrapper

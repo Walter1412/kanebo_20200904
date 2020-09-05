@@ -1,6 +1,6 @@
 <style lang="stylus">
 .products1
-  background-image url('~assets/images/project/section0/background.png')
+  background-image url('~assets/images/project/section1/background.png')
   .product
     position relative
     &-image
@@ -8,12 +8,30 @@
 
     &-0-icon
       position absolute
-      left 23%
+      left 25%
       top 0%
+      width width1920(264)
     &-1-icon
       position absolute
-      right 7%
+      left 72%
       top 0%
+      width width1920(264)
+
+    &-4-icon
+      position absolute
+      right 79%
+      top 0%
+      width width1920(125)
+      img
+        width 100%
+    &-5-icon
+      position absolute
+      left 84%
+      top 20%
+      width width1920(125)
+
+      img
+        width 100%
 </style>
 <template lang="pug">
 .products1.swiper-container(ref="products")
@@ -28,6 +46,10 @@
       img.product-image(src="~assets/images/project/section1/group1.png")
     .product.swiper-slide
       img.product-image(src="~assets/images/project/section1/group2.png")
+      Shake.product-4-icon
+        img(src="~assets/images/project/section1/product4_icon.png")
+      Shake.product-5-icon
+        img(src="~assets/images/project/section1/product5_icon.png")
 
   .swiper-pagination
   .swiper-button-prev

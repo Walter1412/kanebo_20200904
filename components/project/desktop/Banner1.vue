@@ -11,17 +11,22 @@
     position absolute
     left 30%
     bottom 40%
+    width width1920(207)
+    img
+      width 100%
   &-product
     position absolute
     left 47%
     bottom 5%
+    width width1920(189)
 </style>
 <template lang="pug">
 .banner1-wrapper
   .banner1-container
     .banner1
       img.banner1-banground(src="~assets/images/project/banner1/background.jpg")
-      img.banner1-title(src="~assets/images/project/banner1/title.png")
+      Shake.banner1-title
+        img(src="~assets/images/project/banner1/title.png")
       img.banner1-product(src="~assets/images/project/banner1/product.png")
 </template>
 

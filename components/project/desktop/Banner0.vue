@@ -11,6 +11,7 @@
     position absolute
     left 26%
     bottom 18%
+    width width1920(518)
 </style>
 <template lang="pug">
 .banner0-wrapper

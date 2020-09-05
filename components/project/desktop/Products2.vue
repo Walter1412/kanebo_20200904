@@ -1,6 +1,6 @@
 <style lang="stylus">
 .products2
-  background-image url('~assets/images/project/section0/background.png')
+  background-image url('~assets/images/project/section2/background.png')
   .product
     position relative
     &-image
@@ -8,16 +8,25 @@
 
     &-0-icon
       position absolute
-      left 4%
+      right 84%
       top 0%
+      width width1920(125)
+      img
+        width 100%
     &-2-icon
       position absolute
-      left 7%
+      right 81%
       top 0%
+      width width1920(125)
+      img
+        width 100%
     &-3-icon
       position absolute
-      right 8%
-      top 0%
+      left 80%
+      top 6%
+      width width1920(125)
+      img
+        width 100%
 </style>
 <template lang="pug">
 .products2.swiper-container(ref="products")
@@ -26,11 +35,14 @@
     // Slides
     .product.swiper-slide
       img.product-image(src="~assets/images/project/section2/group0.png")
-      img.product-0-icon(src="~assets/images/project/section2/product0_icon.png")
+      Shake.product-0-icon
+        img(src="~assets/images/project/section2/product0_icon.png")
     .product.swiper-slide
       img.product-image(src="~assets/images/project/section2/group1.png")
-      img.product-2-icon(src="~assets/images/project/section2/product2_icon.png")
-      img.product-3-icon(src="~assets/images/project/section2/product3_icon.png")
+      Shake.product-2-icon
+        img(src="~assets/images/project/section2/product2_icon.png")
+      Shake.product-3-icon
+        img(src="~assets/images/project/section2/product3_icon.png")
     .product.swiper-slide
       img.product-image(src="~assets/images/project/section2/group2.png")
 

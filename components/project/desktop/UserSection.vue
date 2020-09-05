@@ -1,26 +1,27 @@
 <style lang="stylus">
-.section0-wrapper
+.section-user-wrapper
   with 100%
   padding-top 70px
-.section0-container
+.section-user-container
   width 100%
-.section0
+.section-user
   &-title
+    position relative
     width 100%
-    padding-right 155px
-    padding-left 155px
-    padding-bottom 80px
-
+    margin-bottom -11px
+    z-index 2000
     img
       width 100%
+  &-content
+    position relative
 </style>
 <template lang="pug">
-.section0-wrapper
-  .section0-container
-    .section0
-      .section0-title
+.section-user-wrapper
+  .section-user-container
+    .section-user
+      .section-user-title
         slot(name="title")
-      slot(name="content")
+      slot.section-user-content(name="content")
 
 </template>
 

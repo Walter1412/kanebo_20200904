@@ -1,10 +1,37 @@
 <style lang="stylus">
-// .products3
-//   background-image url('~assets/images/project/section0/background.png')
+.products3
+  position relative
+  &-background
+    width 100%
+  &-head
+    position absolute
+    width 30%
+    right 0%
+    top 0%
+    width width1920(736)
+  &-icon0
+    position absolute
+    left 92%
+    top 32%
+    width width1920(125)
+    img
+      width 100%
+  &-icon2
+    position absolute
+    right 31%
+    top 36%
+    width width1920(125)
+    img
+      width 100%
 </style>
 <template lang="pug">
-.products3 hi 3333
-
+.products3
+  img.products3-background(src="~assets/images/project/section3/product.png")
+  img.products3-head(src="~assets/images/project/section3/head.png")
+  Shake.products3-icon0
+    img(src="~assets/images/project/section3/product0_icon.png")
+  Shake.products3-icon2
+    img(src="~assets/images/project/section3/product2_icon.png")
 </template>
 
 <script>

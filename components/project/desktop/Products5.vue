@@ -1,5 +1,6 @@
 <style lang="stylus">
 .products5
+  width 100%
   .product
     &-image
       width 100%
