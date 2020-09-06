@@ -4,16 +4,23 @@
   width 100%
   &-background
     width 100%
+  &-water
+    top 3%
+    left 0%
   &-icon2
     position absolute
     left 33%
     bottom 22%
     width width1920(178)
+    img
+      width 100%
   &-icon3
     position absolute
     right 2%
     bottom 16%
     width width1920(197)
+    img
+      width 100%
   &-price0
     position absolute
     left 5%
@@ -45,6 +52,7 @@
 </style>
 <template lang="pug">
 .products7
+  Water.products7-water
   img.products7-background(src="~assets/images/project/desktop/section7/background.png")
   Shake.products7-price0
     img(src="~assets/images/project/desktop/section7/product0_price.png")

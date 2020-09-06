@@ -1,7 +1,8 @@
 <style lang="stylus" scoped>
 .users0
-  background-color #f5eeed
-  padding-top width1920(90)
+  // background-color #f4f2f0
+  // padding-top width1920(90)
+  padding-bottom 0
 
   .user
     position relative
@@ -13,22 +14,22 @@
     &-2-icon
       left 37%
       top 0%
-      width width1920(120)
+      width width786(120)
     .user0-more
       position absolute
-      bottom 26%
-      right 9%
+      bottom 21%
+      right 5%
     .user1-more
       position absolute
-      bottom 19%
+      bottom 27%
       right 46%
     .user2-more
       position absolute
       bottom 26%
-      right 13%
+      right 5%
 
   .swiper-pagination
-    bottom width1920(120)
+    bottom width768(60)
 
   .swiper-slide
     padding 0
@@ -39,17 +40,17 @@
   .swiper-wrapper
     // Slides
     .user.swiper-slide
-      img.user-image(src="~assets/images/project/desktop/users0/user0.png")
+      img.user-image(src="~assets/images/project/mobile/users0/user0.png")
       a.more.user0-more(href="https://nataliepink.pixnet.net/blog/post/68865343" target="_blank")
-        img(src="~assets/images/project/desktop/more.png")
+        img(src="~assets/images/project/mobile/more.png")
     .user.swiper-slide
-      img.user-image(src="~assets/images/project/desktop/users0/user1.png")
+      img.user-image(src="~assets/images/project/mobile/users0/user1.png")
       a.more.user1-more(href="https://bit.ly/3emQjqU" target="_blank")
-        img(src="~assets/images/project/desktop/more.png")
+        img(src="~assets/images/project/mobile/more.png")
     .user.swiper-slide
-      img.user-image(src="~assets/images/project/desktop/users0/user2.png")
+      img.user-image(src="~assets/images/project/mobile/users0/user2.png")
       a.more.user2-more(href="https://bit.ly/3cxQsGk" target="_blank")
-        img(src="~assets/images/project/desktop/more.png")
+        img(src="~assets/images/project/mobile/more.png")
   .swiper-pagination
   .swiper-button-prev
   .swiper-button-next

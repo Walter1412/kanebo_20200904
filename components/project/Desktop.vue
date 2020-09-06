@@ -10,56 +10,61 @@
 </style>
 <template lang="pug">
 .desktop
-  Banner0
+  Banner0.desktop-banner0
   //- 緊緻精華特區
-  Section
+  Section.desktop-product0
     template(slot="title")
+      Water
       img(src="~assets/images/project/desktop/section0/title.png")
     template(slot="content")
       Products0
   //- 年度回饋
-  Section
+  Section.desktop-product1
     template(slot="title")
+      Water
       img(src="~assets/images/project/desktop/section1/title.png")
     template(slot="content")
       Products1
-  UserSection
+  UserSection.desktop-user0
     template(slot="title")
       img(src="~assets/images/project/desktop/users0/title.png")
     template(slot="content")
       User0
-  Banner1
+  Banner1.desktop-banner1
   //- 雙重保濕
-  Section
+  Section.desktop-product2
     template(slot="title")
+      Water
       img(src="~assets/images/project/desktop/section2/title.png")
     template(slot="content")
       Products2
   //- 女神推
-  Section
+  Section.desktop-product3
     template(slot="content")
       Products3
-  Banner2
+  Banner2.desktop-banner2
   //- 潔淨特優專區
-  Section
+  Section.desktop-product4
     template(slot="title")
+      Water
       img(src="~assets/images/project/desktop/section4/title.png")
     template(slot="content")
       Products4
-  UserSection
+  UserSection.desktop-user1
     template(slot="title")
       img(src="~assets/images/project/desktop/users1/title.png")
     template(slot="content")
       User1
-  Banner3
+  Banner3.desktop-banner3
   //- 彩妝超夯好物
-  Section.section5
+  Section.section5.desktop-product5
     template(slot="title")
+      Water
       img(src="~assets/images/project/desktop/section5/title.png")
     template(slot="content")
       Products5
-  Products6
-  Products7
+  Products6.desktop-product6
+  Products7.desktop-product7
   Footer
 </template>
 

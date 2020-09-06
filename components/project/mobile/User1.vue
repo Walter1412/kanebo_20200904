@@ -1,8 +1,8 @@
 <style lang="stylus" scoped>
-.users0
-  background-color #f5eeed
-  padding-top width1920(90)
-
+.users1
+  // background-color #fdfdfc
+  // padding-top width1920(90)
+  padding-bottom 0
   .user
     position relative
     img
@@ -13,43 +13,43 @@
     &-2-icon
       left 37%
       top 0%
-      width width1920(120)
+      width width786(120)
     .user0-more
-      position absolute
-      bottom 26%
-      right 9%
-    .user1-more
       position absolute
       bottom 19%
       right 46%
+    .user1-more
+      position absolute
+      bottom 18%
+      right 6%
     .user2-more
       position absolute
-      bottom 26%
-      right 13%
+      bottom 18%
+      right 48%
 
   .swiper-pagination
-    bottom width1920(120)
+    bottom width768(60)
 
   .swiper-slide
     padding 0
 </style>
 <template lang="pug">
-.users0.swiper-container(ref="users")
+.users1.swiper-container(ref="users")
   // Additional required wrapper
   .swiper-wrapper
     // Slides
     .user.swiper-slide
-      img.user-image(src="~assets/images/project/desktop/users0/user0.png")
-      a.more.user0-more(href="https://nataliepink.pixnet.net/blog/post/68865343" target="_blank")
-        img(src="~assets/images/project/desktop/more.png")
+      img.user-image(src="~assets/images/project/mobile/users1/user0.png")
+      a.more.user0-more(href="https://www.instagram.com/p/CBdIC9yJ51T/?igshid=5wr90vrig61m" target="_blank")
+        img(src="~assets/images/project/mobile/more.png")
     .user.swiper-slide
-      img.user-image(src="~assets/images/project/desktop/users0/user1.png")
-      a.more.user1-more(href="https://bit.ly/3emQjqU" target="_blank")
-        img(src="~assets/images/project/desktop/more.png")
+      img.user-image(src="~assets/images/project/mobile/users1/user1.png")
+      a.more.user1-more(href="https://www.instagram.com/p/CBDX2gxpmo-/?igshid=12ch9txlq283k" target="_blank")
+        img(src="~assets/images/project/mobile/more.png")
     .user.swiper-slide
-      img.user-image(src="~assets/images/project/desktop/users0/user2.png")
-      a.more.user2-more(href="https://bit.ly/3cxQsGk" target="_blank")
-        img(src="~assets/images/project/desktop/more.png")
+      img.user-image(src="~assets/images/project/mobile/users1/user2.png")
+      a.more.user2-more(href="https://www.instagram.com/p/CBAswD8JE-l/?igshid=17k3ffsn2kyae" target="_blank")
+        img(src="~assets/images/project/mobile/more.png")
   .swiper-pagination
   .swiper-button-prev
   .swiper-button-next

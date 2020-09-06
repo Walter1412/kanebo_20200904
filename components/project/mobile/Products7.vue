@@ -9,11 +9,15 @@
     left 72%
     bottom 39%
     width width768(187)
+    img
+      width 100%
   &-icon3
     position absolute
     right 9%
     bottom 14%
     width width768(197)
+    img
+      width 100%
   &-price0
     position absolute
     left 30%

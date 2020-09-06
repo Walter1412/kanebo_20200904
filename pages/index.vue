@@ -29,15 +29,16 @@ export default {
   created() {
     ListenWindow.on('resize', (data) => {
       const { width } = data
-      if (width < 769) {
+      if (width <= 768) {
         this.isMobile = true
       } else {
         this.isMobile = false
       }
     })
+  },
+  mounted() {
     ListenWindow.init()
   },
-  mounted() {},
   methods: {},
 }
 </script>

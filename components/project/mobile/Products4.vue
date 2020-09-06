@@ -1,6 +1,5 @@
 <style lang="stylus" scoped>
 .products4
-  border 1px solid red
   background-image url('~assets/images/project/mobile/section4/background.png')
   .product
     position relative

@@ -13,26 +13,31 @@
 <template lang="pug">
 .mobile
   MobileBanner0
-  MobileSection
+  MobileSection.desktop-product0
     template(slot="title")
       Water
       img(src="~assets/images/project/mobile/section0/title.png")
     template(slot="content")
       MobileProducts0
-  MobileSection
+  MobileSection.desktop-product1
     template(slot="title")
       Water
       img(src="~assets/images/project/mobile/section1/title.png")
     template(slot="content")
       MobileProducts1
+  MobileUserSection
+    template(slot="title")
+      img(src="~assets/images/project/mobile/users0/title.png")
+    template(slot="content")
+      MobileUser0
   MobileBanner1
-  MobileSection
+  MobileSection.desktop-product2
     template(slot="title")
       Water
       img(src="~assets/images/project/mobile/section2/title.png")
     template(slot="content")
       MobileProducts2
-  MobileSection
+  MobileSection.desktop-product3
     template(slot="title")
       Water.section3-water
       img(src="~assets/images/project/mobile/section3/title.png")
@@ -40,18 +45,22 @@
     template(slot="content")
       MobileProducts3
   MobileBanner2
-  MobileSection
+  MobileSection.desktop-product4
     template(slot="title")
       Water
       img(src="~assets/images/project/mobile/section4/title.png")
     template(slot="content")
       MobileProducts4
-  MobileBanner3
-  MobileProducts5
-  MobileProducts6
-  MobileSection
+  MobileUserSection
+    template(slot="title")
+      img(src="~assets/images/project/mobile/users1/title.png")
     template(slot="content")
-      MobileProducts7
+      MobileUser1
+  MobileBanner3
+  MobileProducts5.desktop-product5
+  MobileProducts6.desktop-product6
+  MobileProducts7.desktop-product7
+  MobileFooter
 
 </template>
 
@@ -61,6 +70,7 @@ import MobileBanner1 from '@/components/project/mobile/Banner1'
 import MobileBanner2 from '@/components/project/mobile/Banner2'
 import MobileBanner3 from '@/components/project/mobile/Banner3'
 import MobileSection from '@/components/project/mobile/Section'
+import MobileUserSection from '@/components/project/mobile/UserSection'
 import MobileProducts0 from '@/components/project/mobile/Products0'
 import MobileProducts1 from '@/components/project/mobile/Products1'
 import MobileProducts2 from '@/components/project/mobile/Products2'
@@ -69,6 +79,9 @@ import MobileProducts4 from '@/components/project/mobile/Products4'
 import MobileProducts5 from '@/components/project/mobile/Products5'
 import MobileProducts6 from '@/components/project/mobile/Products6'
 import MobileProducts7 from '@/components/project/mobile/Products7'
+import MobileUser0 from '@/components/project/mobile/User0'
+import MobileUser1 from '@/components/project/mobile/User1'
+import MobileFooter from '@/components/project/mobile/Footer'
 export default {
   components: {
     MobileBanner0,
@@ -76,6 +89,7 @@ export default {
     MobileBanner2,
     MobileBanner3,
     MobileSection,
+    MobileUserSection,
     MobileProducts0,
     MobileProducts1,
     MobileProducts2,
@@ -84,6 +98,9 @@ export default {
     MobileProducts5,
     MobileProducts6,
     MobileProducts7,
+    MobileUser0,
+    MobileUser1,
+    MobileFooter,
   },
   props: {},
   data() {

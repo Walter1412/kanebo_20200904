@@ -1,8 +1,8 @@
 <style lang="stylus" scoped>
 .dialog-wrapper
-  width 100%
-  height 100%
-  position absolute
+  width 100vw
+  height 100vh
+  position fixed
   left 0
   top 0
   display flex
@@ -13,11 +13,17 @@
 
 .dialog-container
   min-width 400px
-  background-color #ffffff
+  width 100%
+  height 100%
+  // background-color #ffffff
 
 .dialog
   width 100%
   height 100%
+  display flex
+  flex-direction column
+  justify-content center
+  align-items center
 </style>
 <template lang="pug">
 .dialog-wrapper

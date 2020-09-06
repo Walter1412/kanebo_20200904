@@ -88,10 +88,10 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {
-    vendor: ['zepto'],
+    vendor: ['jquery'],
     plugins: [
       new webpack.ProvidePlugin({
-        $: 'zepto',
+        $: 'jquery',
       }),
     ],
     loaders: {

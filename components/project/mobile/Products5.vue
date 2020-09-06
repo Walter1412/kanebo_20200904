@@ -4,10 +4,14 @@
   background-size cover
   position relative
   padding-top width768(50)
+  width 100%
   &-water
     top 4%
   &-title
+    width 100%
     padding-bottom width768(50)
+    img
+      width 100%
   .product
     position relative
     img

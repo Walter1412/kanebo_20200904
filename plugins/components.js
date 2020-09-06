@@ -7,6 +7,7 @@ import DialogFooter from '@/components/basic/dialog/DialogFooter'
 import Shake from '@/components/basic/Shake'
 import Light from '@/components/basic/Light'
 import Water from '@/components/basic/Water'
+import MenuBar from '@/components/project/MenuBar'
 
 // Dialog
 Vue.component('Dialog', Dialog)
@@ -16,3 +17,4 @@ Vue.component('DialogFooter', DialogFooter)
 Vue.component('Shake', Shake)
 Vue.component('Light', Light)
 Vue.component('Water', Water)
+Vue.component('MenuBar', MenuBar)

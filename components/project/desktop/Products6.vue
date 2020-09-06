@@ -2,6 +2,9 @@
 .products6
   position relative
   width 100%
+  &-water
+    top 0%
+    left 10%
   &-background
     width 100%
   &-icon
@@ -24,6 +27,7 @@
 </style>
 <template lang="pug">
 .products6
+  Water.products6-water
   img.products6-background(src="~assets/images/project/desktop/section6/background.png")
   img.products6-product0(src="~assets/images/project/desktop/section6/product0.png")
   img.products6-product1(src="~assets/images/project/desktop/section6/product1.png")

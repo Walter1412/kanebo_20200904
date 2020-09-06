@@ -9,6 +9,11 @@
     right 0%
     top 0%
     width width1920(736)
+  &-water
+    right auto
+    left 0%
+    width width1920(430)
+    top 4%
   &-icon0
     position absolute
     right 92%
@@ -26,6 +31,7 @@
 </style>
 <template lang="pug">
 .products3
+  Water.products3-water
   img.products3-background(src="~assets/images/project/desktop/section3/product.png")
   img.products3-head(src="~assets/images/project/desktop/section3/head.png")
   Light.products3-icon0

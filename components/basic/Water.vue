@@ -1,10 +1,9 @@
 <style lang="stylus" scoped>
 .water
-  width 40%
-  border 1px solid red
+  width width1920(660)
   position absolute
-  left 0
-  top 0
+  right 55%
+  top 5%
   animation hue 5s linear infinite
   img
     width 100%

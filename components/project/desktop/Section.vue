@@ -6,20 +6,21 @@
   width 100%
 .section0
   &-title
+    position relative
     width 100%
-    background-image url('~assets/images/project/desktop/water.png')
-    background-repeat no-repeat
-    background-size contain
+    // background-image url('~assets/images/project/desktop/water.png')
+    // background-repeat no-repeat
+    // background-size contain
     padding-bottom width1920(80)
-    animation hue 6s linear infinite
+    // animation hue 6s linear infinite
 
     img
       width 100%
-@keyframes hue
-  from
-    filter hue-rotate(0deg)
-  to
-    filter hue-rotate(360deg)
+// @keyframes hue
+//   from
+//     filter hue-rotate(0deg)
+//   to
+//     filter hue-rotate(360deg)
 </style>
 <template lang="pug">
 .section0-wrapper

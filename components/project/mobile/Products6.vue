@@ -10,6 +10,8 @@
     width width768(152)
     right 2%
     top 0%
+    img
+      width 100%
   &-product0
     position absolute
     width 100%

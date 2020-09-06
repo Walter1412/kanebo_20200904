@@ -1,6 +1,6 @@
 <style lang="stylus" scoped>
 .products1
-  background-image url('~assets/images/project/mobile/section0/background.png')
+  background-image url('~assets/images/project/mobile/section1/background.png')
   .product
     position relative
     img
