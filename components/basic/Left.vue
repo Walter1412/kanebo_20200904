@@ -32,7 +32,7 @@ export default {
     onScroll(data) {
       const top = this.$refs.move.getBoundingClientRect().top
 
-      if (top < 200) {
+      if (top < 300) {
         this.isOn = true
       }
     },

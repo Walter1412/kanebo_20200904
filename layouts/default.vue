@@ -2,6 +2,7 @@
 .default-wrapper
   width 100vw
   position relative
+  overflow-x hidden
 .default-container
   width 100%
 .default
