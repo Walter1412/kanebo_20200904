@@ -1,4 +1,4 @@
-<style lang="stylus">
+<style lang="stylus" scoped>
 .users1
   background-color #fdfdfc
   padding-top width1920(90)

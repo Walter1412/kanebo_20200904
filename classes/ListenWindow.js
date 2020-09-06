@@ -21,7 +21,7 @@ class ListenWindow extends EventEmitter {
     })
 
     window.onload = (event) => {
-      const content = document.querySelector('.genting-content')
+      const content = document.querySelector('.kanebo')
       if (content) {
         content.addEventListener('scroll', (event) => {
           const { scrollTop } = event.target

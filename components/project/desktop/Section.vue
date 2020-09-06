@@ -1,4 +1,4 @@
-<style lang="stylus">
+<style lang="stylus" scoped>
 .section0-wrapper
   width 100%
   padding-top 70px

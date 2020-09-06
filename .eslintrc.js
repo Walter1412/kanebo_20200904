@@ -7,6 +7,7 @@ module.exports = {
   globals: {
     _swiper: true,
     $: true,
+    ListenWindow: true,
   },
   parserOptions: {
     parser: 'babel-eslint',

@@ -1,11 +1,13 @@
-<style lang="stylus">
+<style lang="stylus" scoped>
 .index
   width 100%
 </style>
 <template lang="pug">
 .index
-  Desktop
-  Mobile
+  template(v-if="isMobile")
+    Mobile
+  template(v-else)
+    Desktop
 </template>
 
 <script>
@@ -18,12 +20,23 @@ export default {
   },
   props: {},
   data() {
-    return {}
+    return {
+      isMobile: false,
+    }
   },
   computed: {},
   watch: {},
-  created() {},
+  created() {
+    ListenWindow.on('resize', (data) => {
+      const { width } = data
+      if (width < 769) {
+        this.isMobile = true
+      } else {
+        this.isMobile = false
+      }
+    })
+  },
   mounted() {},
-  // methods: {},
+  methods: {},
 }
 </script>

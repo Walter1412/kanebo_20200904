@@ -1,4 +1,4 @@
-<style lang="stylus">
+<style lang="stylus" scoped>
 .banner1-wrapper
   width 100%
 .banner1-container

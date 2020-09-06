@@ -1,4 +1,4 @@
-<style lang="stylus">
+<style lang="stylus" scoped>
 .flow-colorful
     max-width 600px
     height 150px

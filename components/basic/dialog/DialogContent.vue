@@ -1,4 +1,4 @@
-<style lang="stylus">
+<style lang="stylus" scoped>
 .dialog-content
   padding 0 25px
 </style>

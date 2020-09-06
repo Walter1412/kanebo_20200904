@@ -1,4 +1,4 @@
-<style lang="stylus">
+<style lang="stylus" scoped>
 .dialog-wrapper
   width 100%
   height 100%

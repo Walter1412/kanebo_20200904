@@ -1,4 +1,4 @@
-<style lang="stylus">
+<style lang="stylus" scoped>
 .products1
   background-image url('~assets/images/project/desktop/section1/background.png')
   .product

@@ -1,4 +1,4 @@
-<style lang="stylus">
+<style lang="stylus" scoped>
 .footer
   padding-bottom width1920(70)
   padding-top width1920(70)

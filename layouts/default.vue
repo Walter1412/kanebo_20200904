@@ -1,4 +1,4 @@
-<style lang="stylus">
+<style lang="stylus" scoped>
 .default-wrapper
   width 100vw
 .default-container
@@ -10,7 +10,7 @@
 .default-wrapper
   .default-container
     main.defult
-      Nuxt
+      Nuxt.kanebo
 
   transition(name="page")
     Dialog(v-if="isDialogDisplay")
@@ -40,7 +40,11 @@ export default {
     },
   },
   created() {},
-  mounted() {},
+  mounted() {
+    // ListenWindow.on('scroll', (data) => {
+    //   console.log(data)
+    // })
+  },
   methods: {
     ...mapActions({
       setDialogDisplay: 'dialog/setDiaplay',

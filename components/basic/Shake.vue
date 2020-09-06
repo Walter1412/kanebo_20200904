@@ -1,4 +1,4 @@
-<style lang="stylus">
+<style lang="stylus" scoped>
 @keyframes move
   from
     transform translate(0,0)
