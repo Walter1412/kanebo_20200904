@@ -1,5 +1,9 @@
 const webpack = require('webpack')
 export default {
+  target: 'static',
+  router: {
+    base: '/kanebo_20200904/',
+  },
   /*
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
