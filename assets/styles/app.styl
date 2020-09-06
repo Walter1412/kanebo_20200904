@@ -25,11 +25,15 @@
   padding-bottom width1920(150)
   background-repeat no-repeat
   background-size contain
+  +RWD-below($tablet)
+    padding-bottom width768(100)
 
 .swiper-slide
   width 100%
   padding-left width1920(115)
   padding-right width1920(115)
+  +RWD-below($tablet)
+    padding 0
 
 .swiper-button-prev
   background-image url('~assets/images/project/desktop/pagination/left.png')
@@ -37,6 +41,10 @@
   height 10%
   background-size contain
   background-repeat no-repeat
+  background-position center center
+  +RWD-below($tablet)
+    width 50px
+    height 40px
 
   &:after
     content ''
@@ -47,6 +55,10 @@
   height 10%
   background-size contain
   background-repeat no-repeat
+  background-position center center
+  +RWD-below($tablet)
+    width 50px
+    height 40px
 
   &:after
     content ''
@@ -54,12 +66,17 @@
 .swiper-pagination-bullet
   width 29px
   height 29px
+  +RWD-below($tablet)
+    width 22px
+    height 22px
 
 .swiper-pagination-bullet-active
   background-color #707070
 
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet
   margin 0 20px
+  +RWD-below($tablet)
+    margin 0 15px
 
 .more
   width width1920(200)

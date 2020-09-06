@@ -9,6 +9,8 @@
     width width1920(246)
     right 5%
     top 0%
+    img
+      width 100%
   &-product0
     position absolute
     width 100%
@@ -25,7 +27,8 @@
   img.products6-background(src="~assets/images/project/desktop/section6/background.png")
   img.products6-product0(src="~assets/images/project/desktop/section6/product0.png")
   img.products6-product1(src="~assets/images/project/desktop/section6/product1.png")
-  img.products6-icon(src="~assets/images/project/desktop/section6/icon.png")
+  Light.products6-icon
+    img(src="~assets/images/project/desktop/section6/icon.png")
 </template>
 
 <script>

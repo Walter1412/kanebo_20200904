@@ -1,9 +1,13 @@
 <style lang="stylus" scoped>
-.flow-colorful
-    max-width 600px
-    height 150px
-    background linear-gradient(to right, red, orange, yellow, green, cyan, blue, purple)
-    animation hue 6s linear infinite
+.water
+  width 40%
+  border 1px solid red
+  position absolute
+  left 0
+  top 0
+  animation hue 5s linear infinite
+  img
+    width 100%
 
 @keyframes hue
   from
@@ -12,8 +16,8 @@
     filter hue-rotate(360deg)
 </style>
 <template lang="pug">
-.flow-colorful
-  img(src="~assets/images/project/desktop/banner0/title.png")
+.water
+  img(src="~assets/images/project/desktop/water.png")
 
 </template>
 

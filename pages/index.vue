@@ -35,6 +35,7 @@ export default {
         this.isMobile = false
       }
     })
+    ListenWindow.init()
   },
   mounted() {},
   methods: {},

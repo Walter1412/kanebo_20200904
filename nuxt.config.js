@@ -88,12 +88,12 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {
-    // vendor: ['zepto'],
-    // plugins: [
-    //   new webpack.ProvidePlugin({
-    //     $: 'zepto',
-    //   }),
-    // ],
+    vendor: ['zepto'],
+    plugins: [
+      new webpack.ProvidePlugin({
+        $: 'zepto',
+      }),
+    ],
     loaders: {
       fontUrl: {
         limit: 1,

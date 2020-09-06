@@ -54,8 +54,10 @@
     img(src="~assets/images/project/desktop/section7/product2_price.png")
   Shake.products7-price3
     img(src="~assets/images/project/desktop/section7/product3_price.png")
-  img.products7-icon2(src="~assets/images/project/desktop/section7/product2_icon.png")
-  img.products7-icon3(src="~assets/images/project/desktop/section7/product3_icon.png")
+  Light.products7-icon2
+    img(src="~assets/images/project/desktop/section7/product2_icon.png")
+  Light.products7-icon3
+    img(src="~assets/images/project/desktop/section7/product3_icon.png")
 </template>
 
 <script>
