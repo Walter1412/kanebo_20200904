@@ -7,6 +7,8 @@
     right 0%
     top 0%
     width width768(330) !important
+    img
+      width 100%
 .section5
   padding-top 0
 </style>
@@ -41,7 +43,8 @@
     template(slot="title")
       Water.section3-water
       img(src="~assets/images/project/mobile/section3/title.png")
-      img.section3-head(src="~assets/images/project/mobile/section3/head.png")
+      Move.section3-head
+        img(src="~assets/images/project/mobile/section3/head.png")
     template(slot="content")
       MobileProducts3
   MobileBanner2

@@ -9,6 +9,8 @@
     right 0%
     top 0%
     width width1920(736)
+    img
+      width 100%
   &-water
     right auto
     left 0%
@@ -33,7 +35,8 @@
 .products3
   Water.products3-water
   img.products3-background(src="~assets/images/project/desktop/section3/product.png")
-  img.products3-head(src="~assets/images/project/desktop/section3/head.png")
+  Move.products3-head
+    img(src="~assets/images/project/desktop/section3/head.png")
   Light.products3-icon0
     img(src="~assets/images/project/desktop/section3/product0_icon.png")
   Shake.products3-icon2

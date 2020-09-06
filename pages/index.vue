@@ -37,7 +37,7 @@ export default {
     })
   },
   mounted() {
-    ListenWindow.init()
+    // ListenWindow.init()
   },
   methods: {},
 }

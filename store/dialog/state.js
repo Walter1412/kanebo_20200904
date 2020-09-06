@@ -1,6 +1,6 @@
 export default () => ({
-  isDisplay: true,
-  componentName: 'MenuBar',
+  isDisplay: false,
+  componentName: '',
   data: {},
   config: {},
 })

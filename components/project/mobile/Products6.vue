@@ -17,17 +17,23 @@
     width 100%
     left 0%
     top 9%
+    img
+      width 100%
   &-product1
     position absolute
     width 100%
     right 0%
     bottom 11%
+    img
+      width 100%
 </style>
 <template lang="pug">
 .products0.swiper-container(ref="products")
   img.products6-background(src="~assets/images/project/mobile/section6/background.png")
-  img.products6-product0(src="~assets/images/project/mobile/section6/product0.png")
-  img.products6-product1(src="~assets/images/project/mobile/section6/product1.png")
+  Left.products6-product0
+    img(src="~assets/images/project/mobile/section6/product0.png")
+  Move.products6-product1
+    img(src="~assets/images/project/mobile/section6/product1.png")
   Light.products6-icon
     img(src="~assets/images/project/mobile/section6/icon.png")
 
