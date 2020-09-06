@@ -12,13 +12,16 @@
     left 26%
     bottom 18%
     width width1920(518)
+    img
+      width 100%
 </style>
 <template lang="pug">
 .banner0-wrapper
   .banner0-container
     .banner0
-      img.banner0-banground(src="~assets/images/project/banner0/background.jpg")
-      img.banner0-title(src="~assets/images/project/banner0/title.png")
+      img.banner0-banground(src="~assets/images/project/desktop/banner0/background.jpg")
+      Light.banner0-title
+        img(src="~assets/images/project/desktop/banner0/title.png")
 </template>
 
 <script>

@@ -1,15 +1,15 @@
 <style lang="stylus">
 .section0-wrapper
-  with 100%
+  width 100%
   padding-top 70px
 .section0-container
   width 100%
 .section0
   &-title
     width 100%
-    padding-right 155px
-    padding-left 155px
-    padding-bottom 80px
+    padding-right width1920(115)
+    padding-left width1920(115)
+    padding-bottom width1920(80)
 
     img
       width 100%

@@ -1,8 +1,8 @@
-<style lang="stylus">
+<style lang="stylus" scoped>
 .desktop
   width 100%
   .section5
-    background-image url('~assets/images/project/section5/background.png')
+    background-image url('~assets/images/project/desktop/section5/background.png')
     background-size cover
     background-position center center
     background-repeat no-repeat
@@ -14,25 +14,25 @@
   //- 緊緻精華特區
   Section
     template(slot="title")
-      img(src="~assets/images/project/section0/title.png")
+      img(src="~assets/images/project/desktop/section0/title.png")
     template(slot="content")
       Products0
   //- 年度回饋
   Section
     template(slot="title")
-      img(src="~assets/images/project/section1/title.png")
+      img(src="~assets/images/project/desktop/section1/title.png")
     template(slot="content")
       Products1
   UserSection
     template(slot="title")
-      img(src="~assets/images/project/users0/title.png")
+      img(src="~assets/images/project/desktop/users0/title.png")
     template(slot="content")
       User0
   Banner1
   //- 雙重保濕
   Section
     template(slot="title")
-      img(src="~assets/images/project/section2/title.png")
+      img(src="~assets/images/project/desktop/section2/title.png")
     template(slot="content")
       Products2
   //- 女神推
@@ -43,19 +43,19 @@
   //- 潔淨特優專區
   Section
     template(slot="title")
-      img(src="~assets/images/project/section4/title.png")
+      img(src="~assets/images/project/desktop/section4/title.png")
     template(slot="content")
       Products4
   UserSection
     template(slot="title")
-      img(src="~assets/images/project/users1/title.png")
+      img(src="~assets/images/project/desktop/users1/title.png")
     template(slot="content")
       User1
   Banner3
   //- 彩妝超夯好物
   Section.section5
     template(slot="title")
-      img(src="~assets/images/project/section5/title.png")
+      img(src="~assets/images/project/desktop/section5/title.png")
     template(slot="content")
       Products5
   Products6

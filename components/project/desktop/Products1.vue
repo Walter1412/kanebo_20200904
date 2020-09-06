@@ -1,6 +1,6 @@
 <style lang="stylus">
 .products1
-  background-image url('~assets/images/project/section1/background.png')
+  background-image url('~assets/images/project/desktop/section1/background.png')
   .product
     position relative
     &-image
@@ -8,15 +8,18 @@
 
     &-0-icon
       position absolute
-      left 25%
+      left 29%
       top 0%
-      width width1920(264)
+      width width1920(165)
+      img
+        width 100%
     &-1-icon
       position absolute
-      left 72%
+      left 75%
       top 0%
-      width width1920(264)
-
+      width width1920(165)
+      img
+        width 100%
     &-4-icon
       position absolute
       right 79%
@@ -39,17 +42,19 @@
   .swiper-wrapper
     // Slides
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/section1/group0.png")
-      img.product-0-icon(src="~assets/images/project/section1/product0_icon.png")
-      img.product-1-icon(src="~assets/images/project/section1/product1_icon.png")
+      img.product-image(src="~assets/images/project/desktop/section1/group0.png")
+      Light.product-0-icon
+        img(src="~assets/images/project/desktop/section1/product0_icon.png")
+      Light.product-1-icon
+        img(src="~assets/images/project/desktop/section1/product1_icon.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/section1/group1.png")
+      img.product-image(src="~assets/images/project/desktop/section1/group1.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/section1/group2.png")
+      img.product-image(src="~assets/images/project/desktop/section1/group2.png")
       Shake.product-4-icon
-        img(src="~assets/images/project/section1/product4_icon.png")
+        img(src="~assets/images/project/desktop/section1/product4_icon.png")
       Shake.product-5-icon
-        img(src="~assets/images/project/section1/product5_icon.png")
+        img(src="~assets/images/project/desktop/section1/product5_icon.png")
 
   .swiper-pagination
   .swiper-button-prev

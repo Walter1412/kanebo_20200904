@@ -1,6 +1,6 @@
 <style lang="stylus">
 .products2
-  background-image url('~assets/images/project/section2/background.png')
+  background-image url('~assets/images/project/desktop/section2/background.png')
   .product
     position relative
     &-image
@@ -34,17 +34,17 @@
   .swiper-wrapper
     // Slides
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/section2/group0.png")
+      img.product-image(src="~assets/images/project/desktop/section2/group0.png")
       Shake.product-0-icon
-        img(src="~assets/images/project/section2/product0_icon.png")
+        img(src="~assets/images/project/desktop/section2/product0_icon.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/section2/group1.png")
+      img.product-image(src="~assets/images/project/desktop/section2/group1.png")
       Shake.product-2-icon
-        img(src="~assets/images/project/section2/product2_icon.png")
+        img(src="~assets/images/project/desktop/section2/product2_icon.png")
       Shake.product-3-icon
-        img(src="~assets/images/project/section2/product3_icon.png")
+        img(src="~assets/images/project/desktop/section2/product3_icon.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/section2/group2.png")
+      img.product-image(src="~assets/images/project/desktop/section2/group2.png")
 
   .swiper-pagination
   .swiper-button-prev

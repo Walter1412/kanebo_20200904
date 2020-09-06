@@ -11,11 +11,11 @@
   .swiper-wrapper
     // Slides
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/section5/group0.png")
+      img.product-image(src="~assets/images/project/desktop/section5/group0.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/section5/group1.png")
+      img.product-image(src="~assets/images/project/desktop/section5/group1.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/section5/group2.png")
+      img.product-image(src="~assets/images/project/desktop/section5/group2.png")
 
   .swiper-pagination
   .swiper-button-prev

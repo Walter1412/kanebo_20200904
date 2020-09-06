@@ -1,6 +1,6 @@
 <style lang="stylus">
 .products4
-  background-image url('~assets/images/project/section4/background.png')
+  background-image url('~assets/images/project/desktop/section4/background.png')
   width 100%
   .product
     position relative
@@ -13,6 +13,8 @@
       right 40%
       top 4%
       width width1920(125)
+      img
+        width 100%
     &-2-icon
       position absolute
       right 63%
@@ -27,12 +29,13 @@
   .swiper-wrapper
     // Slides
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/section4/group0.png")
-      img.product-1-icon(src="~assets/images/project/section4/product1_icon.png")
+      img.product-image(src="~assets/images/project/desktop/section4/group0.png")
+      Light.product-1-icon
+        img(src="~assets/images/project/desktop/section4/product1_icon.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/section4/group1.png")
+      img.product-image(src="~assets/images/project/desktop/section4/group1.png")
       Shake.product-2-icon
-        img(src="~assets/images/project/section4/product2_icon.png")
+        img(src="~assets/images/project/desktop/section4/product2_icon.png")
 
   .swiper-pagination
   .swiper-button-prev

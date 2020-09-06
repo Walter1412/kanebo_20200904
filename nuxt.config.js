@@ -44,6 +44,7 @@ export default {
     '@/plugins/axios.js',
     '@/plugins/mixin.js',
     '@/plugins/vue-device-detector.js',
+    '@/plugins/classes.js',
     '@/plugins/swiper.js',
     '@/plugins/components.js',
   ],
@@ -87,10 +88,10 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {
-    // vendor: ['swiper'],
+    // vendor: ['zepto'],
     // plugins: [
     //   new webpack.ProvidePlugin({
-    //     _swiper: 'swiper',
+    //     $: 'zepto',
     //   }),
     // ],
     loaders: {

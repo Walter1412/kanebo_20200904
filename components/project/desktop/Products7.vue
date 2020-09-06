@@ -45,17 +45,17 @@
 </style>
 <template lang="pug">
 .products7
-  img.products7-background(src="~assets/images/project/section7/background.png")
+  img.products7-background(src="~assets/images/project/desktop/section7/background.png")
   Shake.products7-price0
-    img(src="~assets/images/project/section7/product0_price.png")
+    img(src="~assets/images/project/desktop/section7/product0_price.png")
   Shake.products7-price1
-    img(src="~assets/images/project/section7/product1_price.png")
+    img(src="~assets/images/project/desktop/section7/product1_price.png")
   Shake.products7-price2
-    img(src="~assets/images/project/section7/product2_price.png")
+    img(src="~assets/images/project/desktop/section7/product2_price.png")
   Shake.products7-price3
-    img(src="~assets/images/project/section7/product3_price.png")
-  img.products7-icon2(src="~assets/images/project/section7/product2_icon.png")
-  img.products7-icon3(src="~assets/images/project/section7/product3_icon.png")
+    img(src="~assets/images/project/desktop/section7/product3_price.png")
+  img.products7-icon2(src="~assets/images/project/desktop/section7/product2_icon.png")
+  img.products7-icon3(src="~assets/images/project/desktop/section7/product3_icon.png")
 </template>
 
 <script>
