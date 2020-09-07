@@ -44,8 +44,9 @@ export default {
       setDialogComponentName: 'dialog/setComponentName',
     }),
     getWhere(name = 'desktop-banner0') {
-      const { offsetTop } = document.getElementsByClassName(name)[0]
-      this.goWhaere(offsetTop)
+      const { top } = $(`.${name}`).offset()
+      // const { offsetTop } = document.getElementsByClassName(name)[0]
+      this.goWhaere(top)
     },
     goWhaere(value = 0) {
       window.scrollTo({ top: value, behavior: 'smooth' })

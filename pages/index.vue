@@ -40,7 +40,8 @@ export default {
     })
   },
   mounted() {
-    ListenWindow.init()
+    // ListenWindow.init()
+    ListenWindow.onResize()
   },
   methods: {},
 }
