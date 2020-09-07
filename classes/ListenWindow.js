@@ -87,7 +87,7 @@ class ListenWindow extends EventEmitter {
 
   onScroll() {
     this.scrollTop = $(window).scrollTop()
-    this.emit('scroll', this.scrollTop)
+    this.emit('scroll', { scrollTop: this.scrollTop })
   }
 }
 export default ListenWindow

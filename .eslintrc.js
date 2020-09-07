@@ -5,7 +5,7 @@ module.exports = {
     node: true,
   },
   globals: {
-    _swiper: true,
+    Swiper: true,
     $: true,
     ListenWindow: true,
   },
