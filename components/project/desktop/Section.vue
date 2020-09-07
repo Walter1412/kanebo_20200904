@@ -1,7 +1,7 @@
 <style lang="stylus" scoped>
 .section0-wrapper
   width 100%
-  padding-top 70px
+  padding-top width1920(70)
 .section0-container
   width 100%
 .section0

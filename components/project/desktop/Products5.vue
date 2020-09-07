@@ -1,6 +1,8 @@
 <style lang="stylus" scoped>
 .products5
   width 100%
+  background-image url('~assets/images/project/desktop/section5/background0.png')
+  background-size contain
   .product
     &-image
       width 100%

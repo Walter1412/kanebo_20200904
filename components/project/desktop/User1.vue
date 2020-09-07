@@ -28,7 +28,7 @@
       right 51%
 
   .swiper-pagination
-    bottom width1920(120)
+    bottom 15%
 
   .swiper-slide
     padding 0

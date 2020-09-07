@@ -3,20 +3,21 @@
   position relative
   width 100%
   padding-top width768(60)
+  padding-bottom 0
   &-background
     width 100%
   &-icon
     position absolute
     width width768(152)
     right 2%
-    top 0%
+    top 3%
     img
       width 100%
   &-product0
     position absolute
     width 100%
     left 0%
-    top 9%
+    top 12%
     img
       width 100%
   &-product1
@@ -28,7 +29,8 @@
       width 100%
 </style>
 <template lang="pug">
-.products0.swiper-container(ref="products")
+.products6.swiper-container(ref="products")
+  Water
   img.products6-background(src="~assets/images/project/mobile/section6/background.png")
   Left.products6-product0
     img(src="~assets/images/project/mobile/section6/product0.png")

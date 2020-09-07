@@ -49,8 +49,10 @@
       Nuxt.kanebo
   .menu(@click="displayMenu")
     img(src="~assets/images/project/desktop/menu_button.png")
-  .to-top(@click="scrollToTop")
-    img(src="~assets/images/project/desktop/to_top.png")
+  transition(name="page")
+    template(v-if="isDiaplayTop")
+      .to-top(@click="scrollToTop")
+        img(src="~assets/images/project/desktop/to_top.png")
   transition(name="page")
     Dialog(v-if="isDialogDisplay")
 </template>
@@ -61,7 +63,9 @@ export default {
   components: {},
   props: {},
   data() {
-    return {}
+    return {
+      isDiaplayTop: false,
+    }
   },
   computed: {
     ...mapGetters({
@@ -80,9 +84,10 @@ export default {
   },
   created() {},
   mounted() {
-    // ListenWindow.on('scroll', (data) => {
-    //   console.log(data)
-    // })
+    ListenWindow.on('scroll', this.onScoll)
+  },
+  beforeDestroy() {
+    ListenWindow.off('scroll', this.onScoll)
   },
   methods: {
     ...mapActions({
@@ -101,6 +106,13 @@ export default {
     },
     scrollTo(value = 0) {
       window.scrollTo({ top: value, behavior: 'smooth' })
+    },
+    onScoll({ scrollTop }) {
+      if (scrollTop > 500) {
+        this.isDiaplayTop = true
+      } else {
+        this.isDiaplayTop = false
+      }
     },
   },
 }

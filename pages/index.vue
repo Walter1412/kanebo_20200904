@@ -6,7 +6,7 @@
 .index
   template(v-if="isMobile")
     Mobile
-  template(v-else)
+  template(v-if="isDesktop")
     Desktop
 </template>
 
@@ -22,6 +22,7 @@ export default {
   data() {
     return {
       isMobile: false,
+      isDesktop: false,
     }
   },
   computed: {},
@@ -31,7 +32,9 @@ export default {
       const { width } = data
       if (width <= 768) {
         this.isMobile = true
+        this.isDesktop = false
       } else {
+        this.isDesktop = true
         this.isMobile = false
       }
     })
