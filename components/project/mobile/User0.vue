@@ -78,7 +78,7 @@ export default {
     },
     swiperInit() {
       // const Swiper = _swiper.default
-      this.usersSwiper = new Window.Swiper(this.$refs.users, {
+      this.usersSwiper = new Swiper(this.$refs.users, {
         // spaceBetween: 30,
         autoplay: {
           delay: 3000,

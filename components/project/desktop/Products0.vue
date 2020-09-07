@@ -55,7 +55,7 @@ export default {
     swiperInit() {
       // const Swiper = _swiper.default
       console.log('window', Window)
-      this.productsSwiper = new Window.Swiper(this.$refs.products, {
+      this.productsSwiper = new Swiper(this.$refs.products, {
         // spaceBetween: 30,
         autoplay: {
           delay: 3000,
