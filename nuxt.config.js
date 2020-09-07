@@ -44,6 +44,7 @@ export default {
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: [
+    '@/plugins/babel-polyfill.js',
     '@/plugins/vuelidate.js',
     '@/plugins/axios.js',
     '@/plugins/mixin.js',
