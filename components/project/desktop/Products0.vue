@@ -54,7 +54,7 @@ export default {
     },
     swiperInit() {
       // const Swiper = _swiper.default
-      console.log('window', Window)
+      console.log('Swiper', Swiper)
       this.productsSwiper = new Swiper(this.$refs.products, {
         // spaceBetween: 30,
         autoplay: {
