@@ -1,10 +1,15 @@
 <style lang="stylus" scoped>
+.menu-bar
+  width 100%
+  display inline-block
+  vertical-align middle
 .menu-item
   width width1920(610)
-  margin-bottom 20px
   cursor pointer
+  margin 0 auto 20px auto
   +RWD-below($tablet)
     width width768(420)
+    height width768(91)
   img
     width 100%
 </style>
@@ -46,10 +51,12 @@ export default {
     getWhere(name = 'desktop-banner0') {
       const { top } = $(`.${name}`).offset()
       // const { offsetTop } = document.getElementsByClassName(name)[0]
+      console.log(top)
       this.goWhaere(top)
     },
     goWhaere(value = 0) {
-      window.scrollTo({ top: value, behavior: 'smooth' })
+      // window.scrollTo({ top: value, behavior: 'smooth' })
+      $('html, body').animate({ scrollTop: value }, 1000)
       this.setDialogComponentName('')
     },
   },

@@ -20,15 +20,22 @@
 .dialog
   width 100%
   height 100%
-  display flex
-  flex-direction column
-  justify-content center
-  align-items center
+  &:before
+    content ''
+    display inline-block
+    width 0
+    height 100%
+    vertical-align middle
+  // display flex
+  // flex-direction column
+  // justify-content center
+  // align-items center
 </style>
 <template lang="pug">
 .dialog-wrapper
   .dialog-container
-    component.dialog(:is="dialogComponentName")
+    .dialog
+      component(:is="dialogComponentName")
 </template>
 
 <script>
