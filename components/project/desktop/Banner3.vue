@@ -13,6 +13,8 @@
     transform translate(-50%,0)
     bottom 3%
     width width1920(538)
+    background-image url('~assets/images/project/desktop/banner3/title.png')
+    mask-image url('~assets/images/project/desktop/banner3/title.png')
     img
       width 100%
 </style>
