@@ -1,5 +1,6 @@
 <style lang="stylus" scoped>
 .products3
+  padding-top width768(50)
   .product
     position relative
     img
@@ -12,6 +13,8 @@
       left 47%
       top -2%
       width width768(96)
+      background-image url('~assets/images/project/mobile/section3/product0_icon.png')
+      mask-image url('~assets/images/project/mobile/section3/product0_icon.png')
     &-2-icon
       position absolute
       left 71%
@@ -64,6 +67,7 @@ export default {
       // const Swiper = _swiper.default
       this.productsSwiper = new Swiper(this.$refs.products, {
         // spaceBetween: 30,
+        loop: true,
         autoplay: {
           delay: 3000,
         },

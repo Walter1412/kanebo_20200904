@@ -11,6 +11,8 @@
       left 29%
       top 0%
       width width1920(165)
+      background-image url('~assets/images/project/desktop/section1/product0_icon.png')
+      mask-image url('~assets/images/project/desktop/section1/product0_icon.png')
       img
         width 100%
     &-1-icon
@@ -18,6 +20,8 @@
       left 75%
       top 0%
       width width1920(165)
+      background-image url('~assets/images/project/desktop/section1/product1_icon.png')
+      mask-image url('~assets/images/project/desktop/section1/product1_icon.png')
       img
         width 100%
     &-4-icon
@@ -84,7 +88,8 @@ export default {
     swiperInit() {
       // const Swiper = _swiper.default
       this.productsSwiper = new Swiper(this.$refs.products, {
-        spaceBetween: 30,
+        // spaceBetween: 30,
+        loop: true,
         autoplay: {
           delay: 3000,
         },

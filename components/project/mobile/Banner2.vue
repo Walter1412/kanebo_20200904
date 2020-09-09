@@ -11,7 +11,9 @@
     position absolute
     right 0%
     bottom 0%
-    width width168(315)
+    width width768(315)
+    background-image url('~assets/images/project/mobile/banner2/title.png')
+    mask-image url('~assets/images/project/mobile/banner2/title.png')
     img
       width 100%
 </style>

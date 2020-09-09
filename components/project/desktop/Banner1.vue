@@ -19,6 +19,9 @@
     left 47%
     bottom 8%
     width width1920(189)
+    background-image url('~assets/images/project/desktop/banner1/product.png')
+    mask-image url('~assets/images/project/desktop/banner1/product.png')
+
     img
       width 100%
 </style>

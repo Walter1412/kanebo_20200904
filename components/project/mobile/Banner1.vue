@@ -19,6 +19,8 @@
     left 73%
     bottom 0%
     width width768(134)
+    background-image url('~assets/images/project/mobile/banner1/product.png')
+    mask-image url('~assets/images/project/mobile/banner1/product.png')
     img
       width 100%
 </style>

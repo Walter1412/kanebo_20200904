@@ -49,6 +49,8 @@
       img.product-image(src="~assets/images/project/mobile/section2/product4.png")
     .product.swiper-slide
       img.product-image(src="~assets/images/project/mobile/section2/product5.png")
+    .product.swiper-slide
+      img.product-image(src="~assets/images/project/mobile/section2/product6.png")
   .swiper-pagination
   .swiper-button-prev
   .swiper-button-next
@@ -78,6 +80,7 @@ export default {
       // const Swiper = _swiper.default
       this.productsSwiper = new Swiper(this.$refs.products, {
         // spaceBetween: 30,
+        loop: true,
         autoplay: {
           delay: 3000,
         },

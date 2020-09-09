@@ -1,27 +1,37 @@
 <style lang="stylus" scoped>
 .light
   position relative
-  float left
-  margin 18px 0 0 5px
   overflow hidden
-  transition-duration 5s
+  background-repeat no-repeat
+  background-size 100%
+  mask-size contain
+  mask-repeat no-repeat
+
   &:before
     content ''
+    display block
     position absolute
-    width 1000px
-    height 20px
-    background-image linear-gradient(to bottom,transparent,rgba(255,255,255,.5),transparent)
-    transform rotate(-45deg)
-    animation searchLights 2s ease-in 1s infinite
+    transform skewX(-40deg)
+    width 30%
+    height 100%
+    margin-left -80%
+    top 0
+    left 0
+    background linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0))
+    // animation searchLights 2s ease-in 0s infinite
+    animation-name searchLights
+    animation-duration 3s
+    animation-timing-function linear
+    // animation-delay 2s
+    animation-iteration-count infinite
+    // animation-direction alternate
+
 
 @keyframes searchLights
   0%
-    left -200px
-    top -300px
-
+    left 0
   100%
-    left -160px
-    top 800px
+    left 300%
 </style>
 <template lang="pug">
 .light

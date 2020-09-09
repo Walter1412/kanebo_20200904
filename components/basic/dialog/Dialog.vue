@@ -8,7 +8,7 @@
   display flex
   justify-content center
   align-items center
-  background-color rgba(0, 0, 0, 0.3)
+  background-color rgba(0, 0, 0, 0.85)
   z-index $zIndexObject['dialog']
 
 .dialog-container

@@ -51,7 +51,6 @@ export default {
     getWhere(name = 'desktop-banner0') {
       const { top } = $(`.${name}`).offset()
       // const { offsetTop } = document.getElementsByClassName(name)[0]
-      console.log(top)
       this.goWhaere(top)
     },
     goWhaere(value = 0) {

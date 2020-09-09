@@ -4,14 +4,22 @@
   width 100%
   &-background
     width 100%
+    position relative
   &-water
     top 3%
+    left 0%
+  &-title
+    width 100%
+    position absolute
+    top 0%
     left 0%
   &-icon2
     position absolute
     left 33%
     bottom 22%
     width width1920(178)
+    background-image url('~assets/images/project/desktop/section7/product2_icon.png')
+    mask-image url('~assets/images/project/desktop/section7/product2_icon.png')
     img
       width 100%
   &-icon3
@@ -19,6 +27,8 @@
     right 2%
     bottom 16%
     width width1920(197)
+    background-image url('~assets/images/project/desktop/section7/product3_icon.png')
+    mask-image url('~assets/images/project/desktop/section7/product3_icon.png')
     img
       width 100%
   &-price0
@@ -40,6 +50,7 @@
     left 5%
     bottom 26%
     width width1920(420)
+
     img
       width 100%
   &-price3
@@ -47,13 +58,15 @@
     right 31%
     bottom 24%
     width width1920(297)
+
     img
       width 100%
 </style>
 <template lang="pug">
 .products7
-  Water.products7-water
   img.products7-background(src="~assets/images/project/desktop/section7/background.png")
+  Water.products7-water
+  img.products7-title(src="~assets/images/project/desktop/section7/title.png")
   Shake.products7-price0
     img(src="~assets/images/project/desktop/section7/product0_price.png")
   Shake.products7-price1

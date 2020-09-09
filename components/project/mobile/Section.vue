@@ -11,6 +11,7 @@
     padding-bottom width768(80)
     img
       width 100%
+      position relative
 </style>
 <template lang="pug">
 .section0-wrapper

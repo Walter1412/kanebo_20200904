@@ -55,6 +55,7 @@ export default {
     swiperInit() {
       this.productsSwiper = new Swiper(this.$refs.products, {
         // spaceBetween: 30,
+        loop: true,
         autoplay: {
           delay: 3000,
         },

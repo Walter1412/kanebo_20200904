@@ -5,13 +5,21 @@
   &-water
     top 0%
     left 10%
+  &-title
+    width 100%
+    position absolute
+    top 0%
+    left 0%
   &-background
     width 100%
+    position relative
   &-icon
     position absolute
     width width1920(246)
     right 5%
     top 0%
+    background-image url('~assets/images/project/desktop/section6/icon.png')
+    mask-image url('~assets/images/project/desktop/section6/icon.png')
     img
       width 100%
   &-product0
@@ -31,8 +39,9 @@
 </style>
 <template lang="pug">
 .products6
-  Water.products6-water
   img.products6-background(src="~assets/images/project/desktop/section6/background.png")
+  Water.products6-water
+  img.products6-title(src="~assets/images/project/desktop/section6/title.png")
   Left.products6-product0
     img(src="~assets/images/project/desktop/section6/product0.png")
   Move.products6-product1

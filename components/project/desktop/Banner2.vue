@@ -12,6 +12,8 @@
     right 0%
     bottom 0%
     width width1920(518)
+    background-image url('~assets/images/project/desktop/banner2/title.png')
+    mask-image url('~assets/images/project/desktop/banner2/title.png')
     img
       width 100%
 </style>

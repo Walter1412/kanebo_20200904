@@ -1,8 +1,8 @@
 <style lang="stylus" scoped>
 .move
   transform translate(100%,0)
-  animation-duration 2s transform
-  transition-duration 2s
+  animation-duration 1s transform
+  transition-duration 1s
   &[data-is-on=true]
     transform translate(0,0)
 </style>
@@ -31,8 +31,7 @@ export default {
   methods: {
     onScroll(data) {
       const top = this.$refs.move.getBoundingClientRect().top
-
-      if (top < 300) {
+      if (top < 500) {
         this.isOn = true
       }
     },

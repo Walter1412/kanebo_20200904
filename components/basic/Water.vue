@@ -4,7 +4,10 @@
   position absolute
   right 55%
   top 5%
-  animation hue 5s linear infinite
+  // animation hue 5s linear infinite
+  +RWD-below($tablet)
+    right 68%
+    top 0%
   img
     width 100%
 
@@ -12,7 +15,7 @@
   from
     filter hue-rotate(0deg)
   to
-    filter hue-rotate(360deg)
+    filter hue-rotate(180deg)
 </style>
 <template lang="pug">
 .water

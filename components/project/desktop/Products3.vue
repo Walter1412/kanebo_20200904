@@ -3,6 +3,7 @@
   position relative
   &-background
     width 100%
+    position relative
   &-head
     position absolute
     width 30%
@@ -21,6 +22,8 @@
     right 92%
     top 32%
     width width1920(125)
+    background-image url('~assets/images/project/desktop/section3/product0_icon.png')
+    mask-image url('~assets/images/project/desktop/section3/product0_icon.png')
     img
       width 100%
   &-icon2
