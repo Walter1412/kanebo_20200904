@@ -4,6 +4,7 @@
   .section5
     background-image url('~assets/images/project/desktop/section5/background.png')
     background-size cover
+    background-color #fefcfe
     background-position center center
     background-repeat no-repeat
     padding-top 0
