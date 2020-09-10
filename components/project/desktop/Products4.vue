@@ -2,6 +2,7 @@
 .products4
   background-image url('~assets/images/project/desktop/section4/background.png')
   width 100%
+  position relative
   .product
     position relative
     width 100%
@@ -28,6 +29,7 @@
 <template lang="pug">
 .products4.swiper-container(ref="products")
   // Additional required wrapper
+  Halo
   .swiper-wrapper
     // Slides
     .product.swiper-slide

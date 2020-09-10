@@ -1,31 +1,27 @@
 <style lang="stylus" scoped>
-.water
-  width width1920(660)
+.halo
+  width 100%
+  animation fade 1500ms infinite
   position absolute
-  right 55%
-  top 5%
-  animation hue 5s linear infinite
+  left 0%
+  top 0%
+  content url("~assets/images/project/desktop/background0.png")
   +RWD-below($tablet)
-    right 68%
-    top 0%
-  img
-    width 100%
+    content url("~assets/images/project/mobile/background0.png")
 
-@keyframes hue
+@keyframes fade
   from
-    filter rotate(0deg)
+    opacity 1.0
+  50%
+    opacity 0.4
   to
-    filter rotate(360deg)
+    opacity 1.0
 </style>
 <template lang="pug">
-.water
-  img(src="~assets/images/project/desktop/water.png")
-
+img.halo
 </template>
-
 <script>
 export default {
-  components: {},
   props: {},
   data() {
     return {}

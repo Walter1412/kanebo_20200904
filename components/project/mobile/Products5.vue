@@ -4,6 +4,8 @@
   background-size cover
   position relative
   padding-top width768(50)
+  background-position-y 100%
+  background-repeat no-repeat
   width 100%
   &-water
     top 4%

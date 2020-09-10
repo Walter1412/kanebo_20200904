@@ -17,8 +17,8 @@
   &-product
     position absolute
     left 47%
-    bottom 8%
-    width width1920(189)
+    bottom 17%
+    width width1920(187)
     background-image url('~assets/images/project/desktop/banner1/product.png')
     mask-image url('~assets/images/project/desktop/banner1/product.png')
 
@@ -29,7 +29,7 @@
 .banner1-wrapper
   .banner1-container
     .banner1
-      img.banner1-banground(src="~assets/images/project/desktop/banner1/background.jpg")
+      img.banner1-banground(src="~assets/images/project/desktop/banner1/background.png")
       Shake.banner1-title
         img(src="~assets/images/project/desktop/banner1/title.png")
       Light.banner1-product

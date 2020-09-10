@@ -1,6 +1,7 @@
 <style lang="stylus" scoped>
 .products2
   background-image url('~assets/images/project/mobile/section2/background.png')
+  position relative
   .product
     position relative
     height
@@ -29,6 +30,7 @@
 <template lang="pug">
 .products2.swiper-container(ref="products")
   // Additional required wrapper
+  Halo
   .swiper-wrapper
     // Slides
     .product.swiper-slide

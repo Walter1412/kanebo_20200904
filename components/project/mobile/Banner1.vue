@@ -16,9 +16,9 @@
       width 100%
   &-product
     position absolute
-    left 73%
-    bottom 0%
-    width width768(134)
+    left 74%
+    bottom 6%
+    width width768(133)
     background-image url('~assets/images/project/mobile/banner1/product.png')
     mask-image url('~assets/images/project/mobile/banner1/product.png')
     img
