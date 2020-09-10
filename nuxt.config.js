@@ -1,7 +1,7 @@
 const webpack = require('webpack')
 export default {
   router: {
-    base: '/kanebo_20200904/',
+    base: '/kanebo/2020_09Event/',
   },
   /*
    ** Nuxt rendering mode
