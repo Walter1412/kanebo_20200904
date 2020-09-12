@@ -55,7 +55,7 @@
     position absolute
     right 46%
     bottom 20%
-    width width768(297)
+    width width768(260)
     img
       width 100%
 </style>

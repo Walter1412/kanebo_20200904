@@ -51,8 +51,8 @@
       a.more.user2-more(href="https://bit.ly/3cxQsGk" target="_blank")
         img(src="~assets/images/project/desktop/more.png")
   .swiper-pagination
-  .swiper-button-prev
-  .swiper-button-next
+  //- .swiper-button-prev
+  //- .swiper-button-next
 
 </template>
 
@@ -88,8 +88,8 @@ export default {
           clickable: true,
         },
         navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
+          // nextEl: '.swiper-button-next',
+          // prevEl: '.swiper-button-prev',
         },
       })
     },

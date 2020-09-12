@@ -56,8 +56,8 @@
   &-price3
     position absolute
     right 31%
-    bottom 24%
-    width width1920(297)
+    bottom 26%
+    width width1920(290)
 
     img
       width 100%

@@ -51,8 +51,8 @@
       a.more.user2-more(href="https://www.instagram.com/p/CBAswD8JE-l/?igshid=17k3ffsn2kyae" target="_blank")
         img(src="~assets/images/project/mobile/more.png")
   .swiper-pagination
-  .swiper-button-prev
-  .swiper-button-next
+  //- .swiper-button-prev
+  //- .swiper-button-next
 
 </template>
 
@@ -88,8 +88,8 @@ export default {
           clickable: true,
         },
         navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
+          // nextEl: '.swiper-button-next',
+          // prevEl: '.swiper-button-prev',
         },
       })
     },
