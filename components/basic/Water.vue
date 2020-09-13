@@ -2,7 +2,7 @@
 .water
   width width1920(660)
   position absolute
-  right 55%
+  right 64%
   top 5%
   animation hue 5s linear infinite
   +RWD-below($tablet)
@@ -19,7 +19,7 @@
 </style>
 <template lang="pug">
 .water
-  img(src="~assets/images/project/desktop/water.png")
+  img(alt="" src="~assets/images/project/desktop/water.png")
 
 </template>
 

@@ -19,17 +19,38 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: '佳麗寶Kanebo 2020周年慶｜極致好禮，美麗燦爛一整年！',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || '',
+        content:
+          '網紅真心推薦周慶必購組、年度回饋買越多省越多...細緻柔嫩、膨潤Q彈、透亮無瑕的肌膚就是要超前部署一次GET~',
+      },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        property: 'og:title',
+        content: '佳麗寶Kanebo 2020周年慶｜極致好禮，美麗燦爛一整年！',
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        property: 'og:description',
+        content:
+          '網紅真心推薦周慶必購組、年度回饋買越多省越多...細緻柔嫩、膨潤Q彈、透亮無瑕的肌膚就是要超前部署一次GET~',
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        property: 'og:image',
+        content:
+          'http://cee-u.com/kanebo/2020_09Event/2020_08_Kanebo_FB_1200X630.jpg',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '' }],
   },
   /*
    ** Global CSS

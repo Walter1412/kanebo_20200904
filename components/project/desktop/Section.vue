@@ -1,10 +1,10 @@
 <style lang="stylus" scoped>
-.section0-wrapper
+.section-wrapper
   width 100%
   padding-top width1920(70)
-.section0-container
+.section-container
   width 100%
-.section0
+.section
   &-title
     position relative
     width 100%
@@ -15,10 +15,10 @@
       position relative
 </style>
 <template lang="pug">
-.section0-wrapper
-  .section0-container
-    .section0
-      .section0-title
+.section-wrapper
+  .section-container
+    .section
+      .section-title
         slot(name="title")
       slot(name="content")
 

@@ -22,9 +22,9 @@
 .banner3-wrapper
   .banner3-container
     .banner3
-      img.banner3-banground(src="~assets/images/project/desktop/banner3/background.jpg")
+      img.banner3-banground(alt="Kanebo COFFRET DOR" src="~assets/images/project/desktop/banner3/background.jpg")
       Light.banner3-title
-        img(src="~assets/images/project/desktop/banner3/title.png")
+        img(alt="" src="~assets/images/project/desktop/banner3/title.png")
 </template>
 
 <script>

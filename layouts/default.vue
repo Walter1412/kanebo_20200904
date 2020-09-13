@@ -48,11 +48,11 @@
     main.defult
       Nuxt.kanebo
   .menu(@click="displayMenu")
-    img(src="~assets/images/project/desktop/menu_button.png")
+    img(alt="" src="~assets/images/project/desktop/menu_button.png")
   transition(name="page")
     template(v-if="isDiaplayTop")
       .to-top(@click="scrollToTop")
-        img(src="~assets/images/project/desktop/to_top.png")
+        img(alt="" src="~assets/images/project/desktop/to_top.png")
   transition(name="page")
     Dialog(v-if="isDialogDisplay")
 </template>

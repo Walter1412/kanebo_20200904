@@ -18,45 +18,45 @@
   MobileSection.desktop-product0
     template(slot="title")
       Water
-      img(src="~assets/images/project/mobile/section0/title.png")
+      img(alt="緊緻精華特區" src="~assets/images/project/mobile/section0/title.png")
     template(slot="content")
       MobileProducts0
   MobileSection.desktop-product1
     template(slot="title")
       Water
-      img(src="~assets/images/project/mobile/section1/title.png")
+      img(alt="年度回饋優惠區" src="~assets/images/project/mobile/section1/title.png")
     template(slot="content")
       MobileProducts1
   MobileUserSection
     template(slot="title")
-      img(src="~assets/images/project/mobile/users0/title.png")
+      img(alt="" src="~assets/images/project/mobile/users0/title.png")
     template(slot="content")
       MobileUser0
   MobileBanner1
   MobileSection.desktop-product2
     template(slot="title")
       Water
-      img(src="~assets/images/project/mobile/section2/title.png")
+      img(alt="雙重保濕專區" src="~assets/images/project/mobile/section2/title.png")
     template(slot="content")
       MobileProducts2
   MobileSection.desktop-product3
     template(slot="title")
       Water.section3-water
-      img(src="~assets/images/project/mobile/section3/title.png")
+      img(alt="女神推薦專區" src="~assets/images/project/mobile/section3/title.png")
       Move.section3-head
-        img(src="~assets/images/project/mobile/section3/head.png")
+        img(alt="" src="~assets/images/project/mobile/section3/head.png")
     template(slot="content")
       MobileProducts3
   MobileBanner2
   MobileSection.desktop-product4
     template(slot="title")
       Water
-      img(src="~assets/images/project/mobile/section4/title.png")
+      img(alt="潔淨特優專區" src="~assets/images/project/mobile/section4/title.png")
     template(slot="content")
       MobileProducts4
   MobileUserSection
     template(slot="title")
-      img(src="~assets/images/project/mobile/users1/title.png")
+      img(alt="" src="~assets/images/project/mobile/users1/title.png")
     template(slot="content")
       MobileUser1
   MobileBanner3

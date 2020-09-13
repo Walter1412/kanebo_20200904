@@ -22,13 +22,13 @@
   .swiper-wrapper
     // Slides
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/desktop/section0/group0.png")
+      img.product-image(alt="KANEBO 透亮煥顏組 KANEBO 肌活提拉組" src="~assets/images/project/desktop/section0/group0.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/desktop/section0/group1.png")
+      img.product-image(alt="KANEBO 機能修護組 KANEBO 瞬亮嫩白組" src="~assets/images/project/desktop/section0/group1.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/desktop/section0/group2.png")
+      img.product-image(alt="特別推薦 KANEBO肌活緊顏組" src="~assets/images/project/desktop/section0/group2.png")
       Shake.product-2-icon
-        img(src="~assets/images/project/desktop/section0/product4_icon.png")
+        img(alt="" src="~assets/images/project/desktop/section0/product4_icon.png")
   .swiper-pagination
   .swiper-button-prev
   .swiper-button-next

@@ -34,25 +34,24 @@
   .swiper-wrapper
     // Slides
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/mobile/section2/product0.png")
+      img.product-image(alt="DEW SUPERIOR 鎖水潤活組" src="~assets/images/project/mobile/section2/product0.png")
       Shake.product-0-icon
-        img(src="~assets/images/project/mobile/section2/product0_icon.png")
+        img(alt="" src="~assets/images/project/mobile/section2/product0_icon.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/mobile/section2/product1.png")
+      img.product-image(alt="DEW SUPERIOR 飽水潤活組" src="~assets/images/project/mobile/section2/product1.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/mobile/section2/product2.png")
+      img.product-image(alt="KANEBO 肌活潤彈組" src="~assets/images/project/mobile/section2/product2.png")
       Shake.product-2-icon
-        img(src="~assets/images/project/mobile/section2/product2_icon.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/mobile/section2/product3.png")
+      img.product-image(alt="KANEBO 肌活沆痕組" src="~assets/images/project/mobile/section2/product3.png")
       Shake.product-3-icon
-        img(src="~assets/images/project/mobile/section2/product3_icon.png")
+        img(alt="" src="~assets/images/project/mobile/section2/product3_icon.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/mobile/section2/product4.png")
+      img.product-image(alt="KANEBO 奢華潤彈組" src="~assets/images/project/mobile/section2/product4.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/mobile/section2/product5.png")
+      img.product-image(alt="KANEBO 奢潤發光肌" src="~assets/images/project/mobile/section2/product5.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/mobile/section2/product6.png")
+      img.product-image(alt="DEW SUPERIOR EX 活顏超有感" src="~assets/images/project/mobile/section2/product6.png")
   .swiper-pagination
   .swiper-button-prev
   .swiper-button-next

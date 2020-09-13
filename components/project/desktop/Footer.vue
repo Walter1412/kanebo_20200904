@@ -23,7 +23,7 @@
 </style>
 <template lang="pug">
 footer.footer
-  img(src="~assets/images/project/desktop/footer/content.png")
+  img(alt="" src="~assets/images/project/desktop/footer/content.png")
   a.footer-pse-link(href="https://pse.is/MV4GF" target="_blank")
   a.footer-kanebo-link(href="http://www.kanebo-tw.net/" target="_blank")
 </template>

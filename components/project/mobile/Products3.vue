@@ -29,15 +29,15 @@
   .swiper-wrapper
     // Slides
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/mobile/section3/product0.png")
+      img.product-image(alt="DEW SUPERIOR 潤活皂霜7折特優組" src="~assets/images/project/mobile/section3/product0.png")
       Light.product-0-icon
-        img(src="~assets/images/project/mobile/section3/product0_icon.png")
+        img(alt="30%OFF" src="~assets/images/project/mobile/section3/product0_icon.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/mobile/section3/product1.png")
+      img.product-image(alt="DEW SUPERIOR 熬夜救星組" src="~assets/images/project/mobile/section3/product1.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/mobile/section3/product2.png")
+      img.product-image(alt="DEW SUPERIOR CP值破錶組" src="~assets/images/project/mobile/section3/product2.png")
       Shake.product-2-icon
-        img(src="~assets/images/project/mobile/section3/product2_icon.png")
+        img(alt="特別推薦" src="~assets/images/project/mobile/section3/product2_icon.png")
   .swiper-pagination
   .swiper-button-prev
   .swiper-button-next

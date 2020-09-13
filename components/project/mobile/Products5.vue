@@ -27,23 +27,23 @@
 .products5
   .products5-title
     Water.products5-water
-    img(src="~assets/images/project/mobile/section5/title.png")
+    img(alt="彩妝超夯好物" src="~assets/images/project/mobile/section5/title.png")
   .swiper-container(ref="products")
     // Additional required wrapper
     .swiper-wrapper
       // Slides
       .product.swiper-slide
-        img.product-image(src="~assets/images/project/mobile/section5/product0.png")
+        img.product-image(alt="LUNASOL 超模速成款" src="~assets/images/project/mobile/section5/product0.png")
       .product.swiper-slide
-        img.product-image(src="~assets/images/project/mobile/section5/product1.png")
+        img.product-image(alt="LUNASOL 超人氣熱銷款" src="~assets/images/project/mobile/section5/product1.png")
       .product.swiper-slide
-        img.product-image(src="~assets/images/project/mobile/section5/product2.png")
+        img.product-image(alt="KANEBO 名媛顏值肌" src="~assets/images/project/mobile/section5/product2.png")
       .product.swiper-slide
-        img.product-image(src="~assets/images/project/mobile/section5/product3.png")
+        img.product-image(alt="COFFRET DOR 最夯美顏款" src="~assets/images/project/mobile/section5/product3.png")
       .product.swiper-slide
-        img.product-image(src="~assets/images/project/mobile/section5/product4.png")
+        img.product-image(alt="COFFRET DOR 秒殺夯物款" src="~assets/images/project/mobile/section5/product4.png")
       .product.swiper-slide
-        img.product-image(src="~assets/images/project/mobile/section5/product5.png")
+        img.product-image(alt="COFFRET DOR 底妝聚光款" src="~assets/images/project/mobile/section5/product5.png")
     .swiper-pagination
     .swiper-button-prev
     .swiper-button-next

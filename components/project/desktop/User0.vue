@@ -39,17 +39,17 @@
   .swiper-wrapper
     // Slides
     .user.swiper-slide
-      img.user-image(src="~assets/images/project/desktop/users0/user0.png")
+      img.user-image(alt="" src="~assets/images/project/desktop/users0/user0.png")
       a.more.user0-more(href="https://nataliepink.pixnet.net/blog/post/68865343" target="_blank")
-        img(src="~assets/images/project/desktop/more.png")
+        img(alt="" src="~assets/images/project/desktop/more.png")
     .user.swiper-slide
-      img.user-image(src="~assets/images/project/desktop/users0/user1.png")
+      img.user-image(alt="" src="~assets/images/project/desktop/users0/user1.png")
       a.more.user1-more(href="https://bit.ly/3emQjqU" target="_blank")
-        img(src="~assets/images/project/desktop/more.png")
+        img(alt="" src="~assets/images/project/desktop/more.png")
     .user.swiper-slide
-      img.user-image(src="~assets/images/project/desktop/users0/user2.png")
+      img.user-image(alt="" src="~assets/images/project/desktop/users0/user2.png")
       a.more.user2-more(href="https://bit.ly/3cxQsGk" target="_blank")
-        img(src="~assets/images/project/desktop/more.png")
+        img(alt="" src="~assets/images/project/desktop/more.png")
   .swiper-pagination
   //- .swiper-button-prev
   //- .swiper-button-next

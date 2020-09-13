@@ -29,11 +29,11 @@
 .banner1-wrapper
   .banner1-container
     .banner1
-      img.banner1-banground(src="~assets/images/project/desktop/banner1/background.png")
+      img.banner1-banground(alt="KaneboDEW SUPERIOR 潤活系列2020 精采好禮 美麗慶週年" src="~assets/images/project/desktop/banner1/background.png")
       Shake.banner1-title
-        img(src="~assets/images/project/desktop/banner1/title.png")
+        img(alt="" src="~assets/images/project/desktop/banner1/title.png")
       Light.banner1-product
-        img(src="~assets/images/project/desktop/banner1/product.png")
+        img(alt="" src="~assets/images/project/desktop/banner1/product.png")
 </template>
 
 <script>

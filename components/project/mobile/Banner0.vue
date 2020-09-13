@@ -25,9 +25,9 @@
 .banner0-wrapper
   .banner0-container
     .banner0
-      img.banner0-banground(src="~assets/images/project/mobile/banner0/background.png")
+      img.banner0-banground(alt="KANEBO極致好禮 美麗燦爛一整年" src="~assets/images/project/mobile/banner0/background.png")
       Light.banner0-title
-        img(src="~assets/images/project/mobile/banner0/title.png")
+        img(alt="" src="~assets/images/project/mobile/banner0/title.png")
 </template>
 
 <script>

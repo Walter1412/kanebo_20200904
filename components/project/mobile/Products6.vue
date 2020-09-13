@@ -40,15 +40,15 @@
 </style>
 <template lang="pug">
 .products6.swiper-container(ref="products")
-  img.products6-background(src="~assets/images/project/mobile/section6/background.png")
+  img.products6-background(alt="" src="~assets/images/project/mobile/section6/background.png")
   Water.products6-water
-  img.products6-title(src="~assets/images/project/mobile/section6/title.png")
+  img.products6-title(alt="專屬加贈禮" src="~assets/images/project/mobile/section6/title.png")
   Left.products6-product0
-    img(src="~assets/images/project/mobile/section6/product0.png")
+    img(alt="萃齡保濕加贈禮" src="~assets/images/project/mobile/section6/product0.png")
   Move.products6-product1
-    img(src="~assets/images/project/mobile/section6/product1.png")
+    img(alt="潤活極致加贈禮" src="~assets/images/project/mobile/section6/product1.png")
   Light.products6-icon
-    img(src="~assets/images/project/mobile/section6/icon.png")
+    img(alt="" src="~assets/images/project/mobile/section6/icon.png")
 
 </template>
 

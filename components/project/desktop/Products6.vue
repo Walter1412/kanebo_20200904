@@ -4,12 +4,13 @@
   width 100%
   &-water
     top 0%
-    left 10%
+    left 1%
   &-title
     width 100%
     position absolute
     top 0%
     left 0%
+    transform translateX(-8%)
   &-background
     width 100%
     position relative
@@ -39,15 +40,15 @@
 </style>
 <template lang="pug">
 .products6
-  img.products6-background(src="~assets/images/project/desktop/section6/background.png")
+  img.products6-background(alt="" src="~assets/images/project/desktop/section6/background.png")
   Water.products6-water
-  img.products6-title(src="~assets/images/project/desktop/section6/title.png")
+  img.products6-title(alt="專屬加贈禮" src="~assets/images/project/desktop/section6/title.png")
   Left.products6-product0
-    img(src="~assets/images/project/desktop/section6/product0.png")
+    img(alt="萃齡保濕加贈禮" src="~assets/images/project/desktop/section6/product0.png")
   Move.products6-product1
-    img(src="~assets/images/project/desktop/section6/product1.png")
+    img(alt="潤活極致加贈禮" src="~assets/images/project/desktop/section6/product1.png")
   Light.products6-icon
-    img(src="~assets/images/project/desktop/section6/icon.png")
+    img(alt="" src="~assets/images/project/desktop/section6/icon.png")
 </template>
 
 <script>

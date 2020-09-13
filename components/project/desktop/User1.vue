@@ -39,17 +39,17 @@
   .swiper-wrapper
     // Slides
     .user.swiper-slide
-      img.user-image(src="~assets/images/project/desktop/users1/user0.png")
+      img.user-image(alt="" src="~assets/images/project/desktop/users1/user0.png")
       a.more.user0-more(href="https://www.instagram.com/p/CBdIC9yJ51T/?igshid=5wr90vrig61m" target="_blank")
-        img(src="~assets/images/project/desktop/more.png")
+        img(alt="" src="~assets/images/project/desktop/more.png")
     .user.swiper-slide
-      img.user-image(src="~assets/images/project/desktop/users1/user1.png")
+      img.user-image(alt="" src="~assets/images/project/desktop/users1/user1.png")
       a.more.user1-more(href="https://www.instagram.com/p/CBDX2gxpmo-/?igshid=12ch9txlq283k" target="_blank")
-        img(src="~assets/images/project/desktop/more.png")
+        img(alt="" src="~assets/images/project/desktop/more.png")
     .user.swiper-slide
-      img.user-image(src="~assets/images/project/desktop/users1/user2.png")
+      img.user-image(alt="" src="~assets/images/project/desktop/users1/user2.png")
       a.more.user2-more(href="https://www.instagram.com/p/CBAswD8JE-l/?igshid=17k3ffsn2kyae" target="_blank")
-        img(src="~assets/images/project/desktop/more.png")
+        img(alt="" src="~assets/images/project/desktop/more.png")
   .swiper-pagination
   //- .swiper-button-prev
   //- .swiper-button-next

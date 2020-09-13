@@ -21,9 +21,9 @@
 .banner2-wrapper
   .banner2-container
     .banner2
-      img.banner2-banground(src="~assets/images/project/mobile/banner2/background.jpg")
+      img.banner2-banground(alt="KANEBO 髒汙會自己跟著走的保養級皂霜2020 NEW" src="~assets/images/project/mobile/banner2/background.jpg")
       Light.banner2-title
-        img(src="~assets/images/project/mobile/banner2/title.png")
+        img(alt="" src="~assets/images/project/mobile/banner2/title.png")
 </template>
 
 <script>

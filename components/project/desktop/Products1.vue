@@ -48,19 +48,19 @@
   .swiper-wrapper
     // Slides
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/desktop/section1/group0.png")
+      img.product-image(alt="DEW 撫紋肌讚組 特別增量加大版 年度回饋優惠區 特別增量加大版" src="~assets/images/project/desktop/section1/group0.png")
       Light.product-0-icon
-        img(src="~assets/images/project/desktop/section1/product0_icon.png")
+        img(alt="" src="~assets/images/project/desktop/section1/product0_icon.png")
       Light.product-1-icon
-        img(src="~assets/images/project/desktop/section1/product1_icon.png")
+        img(alt="" src="~assets/images/project/desktop/section1/product1_icon.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/desktop/section1/group1.png")
+      img.product-image(alt="KANEBO 肌活撫紋神器 DEW 透亮潤白組 Impress 完美極致組 人氣精選" src="~assets/images/project/desktop/section1/group1.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/desktop/section1/group2.png")
+      img.product-image(alt="BLANCHIR SUPERIOR 亮白煥顏組 人氣必Buy  ALLIE 防曬防護首選" src="~assets/images/project/desktop/section1/group2.png")
       Shake.product-4-icon
-        img(src="~assets/images/project/desktop/section1/product4_icon.png")
+        img(alt="" src="~assets/images/project/desktop/section1/product4_icon.png")
       Shake.product-5-icon
-        img(src="~assets/images/project/desktop/section1/product5_icon.png")
+        img(alt="" src="~assets/images/project/desktop/section1/product5_icon.png")
 
   .swiper-pagination
   .swiper-button-prev

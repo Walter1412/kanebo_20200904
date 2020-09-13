@@ -61,21 +61,21 @@
 </style>
 <template lang="pug">
 .products7
-  img.products7-background(src="~assets/images/project/mobile/section7/background.png")
+  img.products7-background(alt="" src="~assets/images/project/mobile/section7/background.png")
   Water.products7-water
-  img.products7-title(src="~assets/images/project/mobile/section7/title.png")
+  img.products7-title(alt="滿額贈" src="~assets/images/project/mobile/section7/title.png")
   Shake.products7-price0
-    img(src="~assets/images/project/mobile/section7/product0_price.png")
+    img(alt="" src="~assets/images/project/mobile/section7/product0_price.png")
   Shake.products7-price1
-    img(src="~assets/images/project/mobile/section7/product1_price.png")
+    img(alt="" src="~assets/images/project/mobile/section7/product1_price.png")
   Shake.products7-price2
-    img(src="~assets/images/project/mobile/section7/product2_price.png")
+    img(alt="" src="~assets/images/project/mobile/section7/product2_price.png")
   Shake.products7-price3
-    img(src="~assets/images/project/mobile/section7/product3_price.png")
+    img(alt="" src="~assets/images/project/mobile/section7/product3_price.png")
   Light.products7-icon2
-    img(src="~assets/images/project/mobile/section7/product2_icon.png")
+    img(alt="" src="~assets/images/project/mobile/section7/product2_icon.png")
   Light.products7-icon3
-    img(src="~assets/images/project/mobile/section7/product3_icon.png")
+    img(alt="" src="~assets/images/project/mobile/section7/product3_icon.png")
 </template>
 
 <script>

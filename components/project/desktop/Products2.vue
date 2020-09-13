@@ -36,19 +36,19 @@
   .swiper-wrapper
     // Slides
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/desktop/section2/group0.png")
+      img.product-image(alt="DEW SUPERIOR 鎖水潤活組 DEW SUPERIOR 飽水潤活組" src="~assets/images/project/desktop/section2/group0.png")
       Shake.product-0-icon
-        img(src="~assets/images/project/desktop/section2/product0_icon.png")
+        img(alt="" src="~assets/images/project/desktop/section2/product0_icon.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/desktop/section2/group1.png")
+      img.product-image(alt="KANEBO 肌活潤彈組 KANEBO 肌活沆痕組" src="~assets/images/project/desktop/section2/group1.png")
       Shake.product-2-icon
-        img(src="~assets/images/project/desktop/section2/product2_icon.png")
+        img(alt="KANEBO 奢華潤彈組 KANEBO 奢潤發光肌" src="~assets/images/project/desktop/section2/product2_icon.png")
       Shake.product-3-icon
-        img(src="~assets/images/project/desktop/section2/product3_icon.png")
+        img(alt="DEW SUPERIOR EX 活顏超有感" src="~assets/images/project/desktop/section2/product3_icon.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/desktop/section2/group2.png")
+      img.product-image(alt="" src="~assets/images/project/desktop/section2/group2.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/desktop/section2/group3.png")
+      img.product-image(alt="" src="~assets/images/project/desktop/section2/group3.png")
 
   .swiper-pagination
   .swiper-button-prev

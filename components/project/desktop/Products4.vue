@@ -33,13 +33,13 @@
   .swiper-wrapper
     // Slides
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/desktop/section4/group0.png")
+      img.product-image(alt="KANEBO 洗潤超有感 Impress 天后級潔膚品7折特優組" src="~assets/images/project/desktop/section4/group0.png")
       Light.product-1-icon
-        img(src="~assets/images/project/desktop/section4/product1_icon.png")
+        img(alt="30%OFF" src="~assets/images/project/desktop/section4/product1_icon.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/desktop/section4/group1.png")
+      img.product-image(alt="suisai 暢銷明星品" src="~assets/images/project/desktop/section4/group1.png")
       Shake.product-2-icon
-        img(src="~assets/images/project/desktop/section4/product2_icon.png")
+        img(alt="特別推薦" src="~assets/images/project/desktop/section4/product2_icon.png")
 
   .swiper-pagination
   .swiper-button-prev

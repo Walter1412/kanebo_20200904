@@ -1,6 +1,12 @@
 <style lang="stylus" scoped>
 .desktop
   width 100%
+  .section0-title
+    transform translateX(-9%)
+  .section2-title
+    transform translateX(-7%)
+  .section3-title
+    transform translateX(-7%)
   .section5
     background-image url('~assets/images/project/desktop/section5/background.png')
     background-size cover
@@ -8,6 +14,11 @@
     background-position center center
     background-repeat no-repeat
     padding-top 0
+    &-title
+      transform translateX(-12%)
+  .bg
+    height 20px
+    background-image linear-gradient(to bottom, #fcf7f1, #fef1ed)
 </style>
 <template lang="pug">
 .desktop
@@ -16,19 +27,19 @@
   Section.desktop-product0
     template(slot="title")
       Water
-      img(src="~assets/images/project/desktop/section0/title.png")
+      img.section0-title(alt="緊緻精華特區" src="~assets/images/project/desktop/section0/title.png")
     template(slot="content")
       Products0
   //- 年度回饋
   Section.desktop-product1
     template(slot="title")
       Water
-      img(src="~assets/images/project/desktop/section1/title.png")
+      img.section0-title(alt="年度回饋優惠區" src="~assets/images/project/desktop/section1/title.png")
     template(slot="content")
       Products1
   UserSection.desktop-user0
     template(slot="title")
-      img(src="~assets/images/project/desktop/users0/title.png")
+      img(alt="" src="~assets/images/project/desktop/users0/title.png")
     template(slot="content")
       User0
   Banner1.desktop-banner1
@@ -36,7 +47,7 @@
   Section.desktop-product2
     template(slot="title")
       Water
-      img(src="~assets/images/project/desktop/section2/title.png")
+      img.section2-title(alt="雙重保濕專區" src="~assets/images/project/desktop/section2/title.png")
     template(slot="content")
       Products2
   //- 女神推
@@ -48,12 +59,12 @@
   Section.desktop-product4
     template(slot="title")
       Water
-      img(src="~assets/images/project/desktop/section4/title.png")
+      img.section3-title(alt="潔淨特優專區" src="~assets/images/project/desktop/section4/title.png")
     template(slot="content")
       Products4
   UserSection.desktop-user1
     template(slot="title")
-      img(src="~assets/images/project/desktop/users1/title.png")
+      img(alt="" src="~assets/images/project/desktop/users1/title.png")
     template(slot="content")
       User1
   Banner3.desktop-banner3
@@ -61,10 +72,11 @@
   Section.section5.desktop-product5
     template(slot="title")
       Water
-      img(src="~assets/images/project/desktop/section5/title.png")
+      img.section5-title(alt="彩妝超夯好物" src="~assets/images/project/desktop/section5/title.png")
     template(slot="content")
       Products5
   Products6.desktop-product6
+  .bg
   Products7.desktop-product7
   Footer
 </template>

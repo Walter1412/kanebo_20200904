@@ -37,13 +37,13 @@
 <template lang="pug">
 .products3
   Water.products3-water
-  img.products3-background(src="~assets/images/project/desktop/section3/product.png")
+  img.products3-background(alt="女神推薦專區" src="~assets/images/project/desktop/section3/product.png")
   Move.products3-head
-    img(src="~assets/images/project/desktop/section3/head.png")
+    img(alt="" src="~assets/images/project/desktop/section3/head.png")
   Light.products3-icon0
-    img(src="~assets/images/project/desktop/section3/product0_icon.png")
+    img(alt="30%OFF" src="~assets/images/project/desktop/section3/product0_icon.png")
   Shake.products3-icon2
-    img(src="~assets/images/project/desktop/section3/product2_icon.png")
+    img(alt="特別推薦" src="~assets/images/project/desktop/section3/product2_icon.png")
 </template>
 
 <script>

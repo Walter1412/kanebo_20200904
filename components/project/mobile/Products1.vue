@@ -42,25 +42,25 @@
   .swiper-wrapper
     // Slides
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/mobile/section1/product0.png")
+      img.product-image(alt="特別增量加大版 DEW 撫紋肌讚組" src="~assets/images/project/mobile/section1/product0.png")
       Light.product-0-icon
-        img(src="~assets/images/project/mobile/section1/product0_icon.png")
+        img(alt="" src="~assets/images/project/mobile/section1/product0_icon.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/mobile/section1/product1.png")
+      img.product-image(alt="特別增量加大版 KANEBO 肌活撫紋神器" src="~assets/images/project/mobile/section1/product1.png")
       Light.product-1-icon
-        img(src="~assets/images/project/mobile/section1/product1_icon.png")
+        img(alt="" src="~assets/images/project/mobile/section1/product1_icon.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/mobile/section1/product2.png")
+      img.product-image(alt="DEW 透亮潤白組" src="~assets/images/project/mobile/section1/product2.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/mobile/section1/product3.png")
+      img.product-image(alt="Impress 完美極致組" src="~assets/images/project/mobile/section1/product3.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/mobile/section1/product4.png")
+      img.product-image(alt="BLANCHIR SUPERIOR 亮白煥顏組" src="~assets/images/project/mobile/section1/product4.png")
       Shake.product-4-icon
-        img(src="~assets/images/project/mobile/section1/product4_icon.png")
+        img(alt="" src="~assets/images/project/mobile/section1/product4_icon.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/mobile/section1/product5.png")
+      img.product-image(alt="" src="~assets/images/project/mobile/section1/product5.png")
       Shake.product-5-icon
-        img(src="~assets/images/project/mobile/section1/product5_icon.png")
+        img(alt="ALLIE 防曬防護首選" src="~assets/images/project/mobile/section1/product5_icon.png")
   .swiper-pagination
   .swiper-button-prev
   .swiper-button-next

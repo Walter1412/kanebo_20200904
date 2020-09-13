@@ -14,11 +14,11 @@
   .swiper-wrapper
     // Slides
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/desktop/section5/group0.png")
+      img.product-image(alt="LUNASOL 超模速成款 LUNASOL 超人氣熱銷款" src="~assets/images/project/desktop/section5/group0.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/desktop/section5/group1.png")
+      img.product-image(alt="KANEBO 名媛顏值肌 COFFRET DOR 最夯美顏款" src="~assets/images/project/desktop/section5/group1.png")
     .product.swiper-slide
-      img.product-image(src="~assets/images/project/desktop/section5/group2.png")
+      img.product-image(alt="COFFRET DOR 秒殺夯物款 COFFRET DOR 底妝聚光款" src="~assets/images/project/desktop/section5/group2.png")
 
   .swiper-pagination
   .swiper-button-prev

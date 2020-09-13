@@ -16,21 +16,21 @@
 <template lang="pug">
 .menu-bar
   .menu-item(@click="getWhere('desktop-product0')")
-    img(src="~assets/images/project/desktop/menu/0.png")
+    img(alt="" src="~assets/images/project/desktop/menu/0.png")
   .menu-item(@click="getWhere('desktop-product1')")
-    img(src="~assets/images/project/desktop/menu/1.png")
+    img(alt="" src="~assets/images/project/desktop/menu/1.png")
   .menu-item(@click="getWhere('desktop-product2')")
-    img(src="~assets/images/project/desktop/menu/2.png")
+    img(alt="" src="~assets/images/project/desktop/menu/2.png")
   .menu-item(@click="getWhere('desktop-product3')")
-    img(src="~assets/images/project/desktop/menu/3.png")
+    img(alt="" src="~assets/images/project/desktop/menu/3.png")
   .menu-item(@click="getWhere('desktop-product4')")
-    img(src="~assets/images/project/desktop/menu/4.png")
+    img(alt="" src="~assets/images/project/desktop/menu/4.png")
   .menu-item(@click="getWhere('desktop-product5')")
-    img(src="~assets/images/project/desktop/menu/5.png")
+    img(alt="" src="~assets/images/project/desktop/menu/5.png")
   .menu-item(@click="getWhere('desktop-product6')")
-    img(src="~assets/images/project/desktop/menu/6.png")
+    img(alt="" src="~assets/images/project/desktop/menu/6.png")
   .menu-item(@click="getWhere('desktop-product7')")
-    img(src="~assets/images/project/desktop/menu/7.png")
+    img(alt="" src="~assets/images/project/desktop/menu/7.png")
 </template>
 
 <script>
