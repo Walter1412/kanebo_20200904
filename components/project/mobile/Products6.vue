@@ -14,6 +14,7 @@
     width 100%
   &-background
     width 100%
+
   &-icon
     position absolute
     width width768(152)

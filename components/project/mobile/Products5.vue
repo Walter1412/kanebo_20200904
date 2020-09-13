@@ -1,10 +1,10 @@
 <style lang="stylus" scoped>
 .products5
-  background-image url('~assets/images/project/desktop/section5/background.png')
+  background-image url('~assets/images/project/mobile/section5/background.png'),linear-gradient(to bottom, #d6dcf0, #ffffff)
   background-size cover
   position relative
   padding-top width768(50)
-  background-position-y 100%
+  background-position-y 97%
   background-repeat no-repeat
   background-color #ffffff
   width 100%

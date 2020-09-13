@@ -5,6 +5,8 @@
   .product
     position relative
     height
+    .product-6
+      transform translateY(21%)
     img
       width 100%
     &-image
@@ -51,7 +53,7 @@
     .product.swiper-slide
       img.product-image(alt="KANEBO 奢潤發光肌" src="~assets/images/project/mobile/section2/product5.png")
     .product.swiper-slide
-      img.product-image(alt="DEW SUPERIOR EX 活顏超有感" src="~assets/images/project/mobile/section2/product6.png")
+      img.product-6.product-image(alt="DEW SUPERIOR EX 活顏超有感" src="~assets/images/project/mobile/section2/product6.png")
   .swiper-pagination
   .swiper-button-prev
   .swiper-button-next
