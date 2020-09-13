@@ -34,7 +34,7 @@
         width 100%
     &-5-icon
       position absolute
-      left 84%
+      left 89%
       top 20%
       width width1920(125)
 
