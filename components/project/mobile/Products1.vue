@@ -31,8 +31,8 @@
       width width768(96)
     &-5-icon
       position absolute
-      left 69%
-      top 7%
+      left 73%
+      top 9%
       width width768(90)
 </style>
 <template lang="pug">
