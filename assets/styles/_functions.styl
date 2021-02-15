@@ -3,3 +3,8 @@ em($pixels, $context = $font-size-root)
 
 rem($pixels, $context = $font-size-root)
   unit(($pixels / $context), 'rem')
+
+width1920($pixels, $context = 1920)
+  unit(($pixels / $context) * 100, '%')
+width768($pixels, $context = 768)
+  unit(($pixels / $context) * 100, '%')

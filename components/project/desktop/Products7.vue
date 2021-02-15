@@ -1,0 +1,103 @@
+<style lang="stylus" scoped>
+.products7
+  position relative
+  width 100%
+  margin-top -1px
+  &-background
+    width 100%
+    position relative
+  &-water
+    top 3%
+    left 0%
+  &-title
+    width 100%
+    position absolute
+    top 0%
+    left 0%
+    transform translateX(-2%)
+  &-icon2
+    position absolute
+    left 33%
+    bottom 22%
+    width width1920(178)
+    background-image url('~assets/images/project/desktop/section7/product2_icon.png')
+    mask-image url('~assets/images/project/desktop/section7/product2_icon.png')
+    img
+      width 100%
+  &-icon3
+    position absolute
+    right 2%
+    bottom 16%
+    width width1920(197)
+    background-image url('~assets/images/project/desktop/section7/product3_icon.png')
+    mask-image url('~assets/images/project/desktop/section7/product3_icon.png')
+    img
+      width 100%
+  &-price0
+    position absolute
+    left 5%
+    top 15%
+    width width1920(300)
+    img
+      width 100%
+  &-price1
+    position absolute
+    left 5%
+    top 43%
+    width width1920(300)
+    img
+      width 100%
+  &-price2
+    position absolute
+    left 5%
+    bottom 26%
+    width width1920(420)
+
+    img
+      width 100%
+  &-price3
+    position absolute
+    right 30%
+    bottom 26%
+    width width1920(290)
+
+    img
+      width 100%
+</style>
+<template lang="pug">
+.products7
+  img.products7-background(alt="滿額贈" src="~assets/images/project/desktop/section7/background.png")
+  Water.products7-water
+  img.products7-title(alt="" src="~assets/images/project/desktop/section7/title.png")
+  Shake.products7-price0
+    img(alt="" src="~assets/images/project/desktop/section7/product0_price.png")
+  Shake.products7-price1
+    img(alt="" src="~assets/images/project/desktop/section7/product1_price.png")
+  Shake.products7-price2
+    img(alt="" src="~assets/images/project/desktop/section7/product2_price.png")
+  Shake.products7-price3
+    img(alt="" src="~assets/images/project/desktop/section7/product3_price.png")
+  Light.products7-icon2
+    img(alt="" src="~assets/images/project/desktop/section7/product2_icon.png")
+  Light.products7-icon3
+    img(alt="" src="~assets/images/project/desktop/section7/product3_icon.png")
+</template>
+
+<script>
+export default {
+  components: {},
+  props: {},
+  data() {
+    return {}
+  },
+  computed: {},
+  watch: {},
+  created() {},
+  mounted() {
+    this.init()
+  },
+  methods: {
+    init() {},
+  },
+}
+</script>

@@ -1,22 +1,48 @@
 <style lang="stylus" scoped>
-.test
-  font-size 20px
+.index
+  width 100%
 </style>
 <template lang="pug">
-.index hello
+.index
+  template(v-if="isMobile")
+    Mobile
+  template(v-if="isDesktop")
+    Desktop
 </template>
 
 <script>
+import Desktop from '@/components/project/Desktop'
+import Mobile from '@/components/project/Mobile'
 export default {
-  components: {},
+  components: {
+    Desktop,
+    Mobile,
+  },
   props: {},
   data() {
-    return {}
+    return {
+      isMobile: false,
+      isDesktop: false,
+    }
   },
   computed: {},
   watch: {},
-  created() {},
-  mounted() {},
-  // methods: {},
+  created() {
+    ListenWindow.on('resize', (data) => {
+      const { width } = data
+      if (width <= 768) {
+        this.isMobile = true
+        this.isDesktop = false
+      } else {
+        this.isDesktop = true
+        this.isMobile = false
+      }
+    })
+  },
+  mounted() {
+    // ListenWindow.init()
+    ListenWindow.onResize()
+  },
+  methods: {},
 }
 </script>

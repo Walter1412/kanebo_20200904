@@ -1,4 +1,4 @@
-<style lang="stylus">
+<style lang="stylus" scoped>
 .dialog-header
   display flex
   height 60px

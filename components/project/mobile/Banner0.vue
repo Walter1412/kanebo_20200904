@@ -1,0 +1,46 @@
+<style lang="stylus" scoped>
+.banner0-wrapper
+  width 100%
+  height 100%
+.banner0-container
+  width 100%
+  height 100%
+.banner0
+  height 100%
+  position relative
+  &-banground
+    height 100%
+    width 100%
+  &-title
+    position absolute
+    width 98%
+    left 0%
+    bottom 0%
+    background-image url('~assets/images/project/mobile/banner0/title.png')
+    mask-image url('~assets/images/project/mobile/banner0/title.png')
+    img
+      width 100%
+</style>
+<template lang="pug">
+.banner0-wrapper
+  .banner0-container
+    .banner0
+      img.banner0-banground(alt="KANEBO極致好禮 美麗燦爛一整年" src="~assets/images/project/mobile/banner0/background.png")
+      Light.banner0-title
+        img(alt="" src="~assets/images/project/mobile/banner0/title.png")
+</template>
+
+<script>
+export default {
+  components: {},
+  props: {},
+  data() {
+    return {}
+  },
+  computed: {},
+  watch: {},
+  created() {},
+  mounted() {},
+  // methods: {},
+}
+</script>
